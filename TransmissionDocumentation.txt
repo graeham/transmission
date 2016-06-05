@@ -1,0 +1,25 @@
+
+
+PINS
+
+Motor Out
+OUT_HS - 400mA - l99pm62drv, need to set pwm and pwm frequency?
+OUT_1 - 150mA
+OUT_2 - 150mA
+OUT_3 - 150mA - not connected?
+OUT_4 - 150mA - not connected?
+
+PWM for out makes 128 bit, note for chopping
+
+
+Input
+GPIO-B - currently configured for digital output if DEBUG, could be re-config.
+B0 - current only read input analog
+
+
+
+5 June 2016 Status
+-rvtrimmer sends to lcd
+-pb0 does not send to lcd
+-out1 does not respond to trimmer. trying to debug with explicit values to pass to it. 
+127 = 0.89V; 0xFF = 0.5V????

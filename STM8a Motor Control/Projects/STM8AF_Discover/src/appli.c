@@ -261,23 +261,26 @@ void Appli(void)
 			ADC2_StartConversion();
 			
 			/* read PB0 and update LIN signal */
-			Data0 = (uint8_t) GetADCIOData();
-			Data1 = (uint8_t) (GetADCIOData()>>8);
-			/*Start ADC Conversion */
-			ADC2_StartConversion();
+			Data0 = (uint8_t) GetADCData();
+			Data1 = (uint8_t) (GetADCData()>>8);
+			/*Data0 = (uint8_t) GetADCIOData();
+			Data1 = (uint8_t) (GetADCIOData()>>8);*/
+			/*Start ADC Conversion 
+			ADC2_StartConversion();*/
 			
 			/* read RV1 trimmer and update LIN signal */
-			motorDuty1 = (uint8_t) (GetADCData()>>2);
-			
+			/*motorDuty1 = (uint8_t) (GetADCData()>>3);Jump 3 to keep 7 MSB */
+			/*motorDuty1 = (uint8_t) (GetADCData()>>2);*/
+			motorDuty1 = (Data1 << 6) | (Data0 >> 2);
+			/*motorDuty1 = (uint8_t) 0xFF;*/
 			
 			/* CAN "Master" test mode */
 			if ((TransmissionEnable==TRUE)&&(CANMaster==TRUE))
 			{			
 				WRITE_CAN_MASTER_RV1_TRIMMER_LSB(Data0);
 				WRITE_CAN_MASTER_RV1_TRIMMER_MSB(Data1);
-				L99PM62drv_SetPWMFrequ(L99PM62DRV_PWMFREQU_200HZ);
+				/*L99PM62drv_SetPWMDutyCycle(L99PM62DRV_MASK_PWM1,motorDuty1/2.0);*/
 				L99PM62drv_SetPWMDutyCycle(L99PM62DRV_MASK_PWM1,motorDuty1/2.0);
-				L99PM62drv_SetOut1Mode(L99PM62DRV_OUT1_MODE_PWM1);
 				
 				/*Check if USER1 button was pushed, and update LIN signal */
 				if (UserButton1Status()) 
@@ -315,6 +318,7 @@ void Appli(void)
 			{			
 				WRITE_CAN_SLAVE_RV1_TRIMMER_LSB(Data0);
 				WRITE_CAN_SLAVE_RV1_TRIMMER_MSB(Data1);
+				L99PM62drv_SetPWMDutyCycle(L99PM62DRV_MASK_PWM1,motorDuty1/2.0);
 				
 				/*Check if USER1 button was pushed, and update LIN signal */
 				if (UserButton1Status()) 
@@ -355,7 +359,8 @@ void Appli(void)
 				
 					WRITE_SLAVE_RV1_TRIMMER_LSB(Data0);
 					WRITE_SLAVE_RV1_TRIMMER_MSB(Data1);
-					
+					L99PM62drv_SetPWMDutyCycle(L99PM62DRV_MASK_PWM1,motorDuty1/2.0);
+				
 					/*Check if USER1 button was pushed, and update LIN signal */
 					if (UserButton1Status()) 
 					{			
@@ -391,7 +396,8 @@ void Appli(void)
 				{		
 					WRITE_MASTER_RV1_TRIMMER_LSB(Data0);
 					WRITE_MASTER_RV1_TRIMMER_MSB(Data1);
-					
+					L99PM62drv_SetPWMDutyCycle(L99PM62DRV_MASK_PWM1,motorDuty1/2.0);
+				
 					/*Check if USER1 button was pushed, and update LIN signal */
 					if (UserButton1Status()) 
 					{			

@@ -237,6 +237,7 @@ void GPIO_Config(void)
 	    
 	//User Button 1 & 2
 	EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOE, EXTI_SENSITIVITY_FALL_ONLY);    	
+
 }
 
 /**

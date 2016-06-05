@@ -10,7 +10,3 @@ Dependencies=
 [Project1]
 Filename=..\..\stm8al_discover\stvd\cosmic\stm8al_discover.stp
 Dependencies=
-[Options]
-ActiveProject=stm8af_discover
-ActiveConfig=Debug
-AddSortedElements=0
