@@ -49,6 +49,8 @@ extern void CAN_Task(void);
 extern void CAN_Config(void);
 /* adc.c */
 extern void ADC_Config(void);
+/* adcIO.c */
+extern void ADCIO_Config(void);
 
 /* Private typedef -----------------------------------------------------------*/
   
@@ -91,7 +93,7 @@ void main(void)
   
   /* ADC configuration -------------------------------------------*/
     ADC_Config();    
-	
+		ADCIO_Config(); 
   /* User Button 1 + trimmer turned clockwised: enter CAN test mode */
   if ((GPIOE->IDR & GPIO_PIN_2) == 0x0)
   {
@@ -117,6 +119,9 @@ void main(void)
   ADC_Config();    
   ADC2_ITConfig(ENABLE);
   
+/*	ADCIO_Config();
+	ADC2_ITConfig(ENABLE);
+*/  	
   /* TIM4 configuration -----------------------------------------*/
   TIM4_Config();  
     
@@ -207,7 +212,8 @@ void CLK_Config(void)
 void GPIO_Config(void)
 {
   /*Floating, no external interupt - might want for encoder*/
-	GPIO_Init(GPIOB, (GPIO_Pin_TypeDef)GPIO_PIN_ALL, GPIO_MODE_IN_FL_NO_IT);
+	
+	/*GPIO_Init(GPIOB, (GPIO_Pin_TypeDef)GPIO_PIN_ALL, GPIO_MODE_IN_FL_NO_IT);*/
 
 	#ifdef DEBUG
 	GPIO_Init(GPIOB, (GPIO_Pin_TypeDef)GPIO_PIN_ALL, GPIO_MODE_OUT_PP_LOW_FAST);
@@ -219,7 +225,7 @@ void GPIO_Config(void)
 		
 	/* Init SPI peripheral pins */
 	GPIO_Init(GPIOC, (GPIO_Pin_TypeDef)(GPIO_PIN_5|GPIO_PIN_6), GPIO_MODE_OUT_PP_LOW_FAST); /* MOSI + CLK */
-	GPIO_Init(GPIOC, (GPIO_Pin_TypeDef)GPIO_PIN_7, GPIO_MODE_IN_PU_NO_IT); /* MISO */
+	GPIO_Init(GPIOC, (GPIO_Pin_TypeDef) (GPIO_PIN_7), GPIO_MODE_IN_PU_NO_IT); /* MISO */
 	GPIO_Init(GPIOE, (GPIO_Pin_TypeDef)(GPIO_PIN_5), GPIO_MODE_OUT_PP_HIGH_FAST); /* CSN */
 	
 	/* Initialize LEDs I/Os in Output Mode */

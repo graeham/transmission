@@ -137,6 +137,7 @@ ADC2_TypeDef	..\..\inc\stm8s.h	386;"	typedef	typeref:struct:ADC2_struct
 ADC2_struct	..\..\inc\stm8s.h	375;"	struct
 ADCIO_Config	..\..\src\adcio.c	49;"	function	signature:(void)
 ADCIO_Config	..\..\src\appli.c	51;"	prototype	file:	signature:(void)
+ADCIO_Config	..\..\src\main.c	53;"	prototype	file:	signature:(void)
 ADC_Config	..\..\src\adc.c	49;"	function	signature:(void)
 ADC_Config	..\..\src\appli.c	48;"	prototype	file:	signature:(void)
 ADC_Config	..\..\src\main.c	51;"	prototype	file:	signature:(void)
@@ -704,8 +705,8 @@ CLK_ClockSwitchCmd	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h	
 CLK_ClockSwitchCmd	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_clk.c	218;"	function	signature:(FunctionalState NewState)
 CLK_ClockSwitchConfig	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h	355;"	prototype	signature:(CLK_SwitchMode_TypeDef CLK_SwitchMode, CLK_Source_TypeDef CLK_NewClock, FunctionalState ITState, CLK_CurrentClockState_TypeDef CLK_CurrentClockState)
 CLK_ClockSwitchConfig	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_clk.c	319;"	function	signature:(CLK_SwitchMode_TypeDef CLK_SwitchMode, CLK_Source_TypeDef CLK_NewClock, FunctionalState ITState, CLK_CurrentClockState_TypeDef CLK_CurrentClockState)
-CLK_Config	..\..\src\main.c	178;"	function	signature:(void)
-CLK_Config	..\..\src\main.c	74;"	prototype	file:	signature:(void)
+CLK_Config	..\..\src\main.c	180;"	function	signature:(void)
+CLK_Config	..\..\src\main.c	76;"	prototype	file:	signature:(void)
 CLK_CurrentClockState_TypeDef	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h	50;"	typedef	typeref:enum:__anon34
 CLK_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h	346;"	prototype	signature:(void)
 CLK_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_clk.c	66;"	function	signature:(void)
@@ -922,7 +923,7 @@ CheckITStatus	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_can.c	43;"	
 ChecksumError	..\..\src\lin.c	100;"	variable	file:
 ChgBit	..\..\inc\stm8s.h	2678;"	macro
 ClearAppliTimebaseTick	..\..\src\appli.c	217;"	prototype	file:	signature:(void)
-ClearAppliTimebaseTick	..\..\src\appli.c	747;"	function	signature:(void)
+ClearAppliTimebaseTick	..\..\src\appli.c	756;"	function	signature:(void)
 ClearCANTimebaseTick	..\..\src\can.c	347;"	function	signature:(void)
 ClearCANTimebaseTick	..\..\src\can.c	63;"	prototype	file:	signature:(void)
 ClearLINTimebaseTick	..\..\src\lin.c	123;"	prototype	file:	signature:(void)
@@ -995,9 +996,9 @@ DataReception	..\..\src\lin.c	45;"	enumerator	enum:__anon108	file:
 DataToSend	..\..\src\lin.c	89;"	variable	file:
 DataTransmission	..\..\src\lin.c	44;"	enumerator	enum:__anon108	file:
 DecrementStatus	..\..\src\appli.c	213;"	prototype	file:	signature:(void)
-DecrementStatus	..\..\src\appli.c	509;"	function	signature:(void)
-Delay	..\..\src\main.c	322;"	function	signature:(u32 nTime)
-Delay	..\..\src\main.c	71;"	prototype	file:	signature:(u32 nTime)
+DecrementStatus	..\..\src\appli.c	518;"	function	signature:(void)
+Delay	..\..\src\main.c	325;"	function	signature:(u32 nTime)
+Delay	..\..\src\main.c	73;"	prototype	file:	signature:(u32 nTime)
 ECKR	..\..\inc\stm8s.h	496;"	member	struct:CLK_struct
 EEPROM	..\..\inc\stm8s.h	116;"	macro
 EEPROM	..\..\inc\stm8s.h	122;"	macro
@@ -1258,8 +1259,8 @@ GPIOI	..\..\inc\stm8s.h	2537;"	macro
 GPIOI_BaseAddress	..\..\inc\stm8s.h	2456;"	macro
 GPIO_CR1_RESET_VALUE	..\..\inc\stm8s.h	270;"	macro
 GPIO_CR2_RESET_VALUE	..\..\inc\stm8s.h	271;"	macro
-GPIO_Config	..\..\src\main.c	207;"	function	signature:(void)
-GPIO_Config	..\..\src\main.c	75;"	prototype	file:	signature:(void)
+GPIO_Config	..\..\src\main.c	209;"	function	signature:(void)
+GPIO_Config	..\..\src\main.c	77;"	prototype	file:	signature:(void)
 GPIO_DDR_RESET_VALUE	..\..\inc\stm8s.h	269;"	macro
 GPIO_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h	133;"	prototype	signature:(GPIO_TypeDef* GPIOx)
 GPIO_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_gpio.c	47;"	function	signature:(GPIO_TypeDef* GPIOx)
@@ -1314,9 +1315,9 @@ GPIO_WriteReverse	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_gpio.c	
 GPIO_struct	..\..\inc\stm8s.h	254;"	struct
 GTR	..\..\inc\stm8s.h	1763;"	member	struct:UART1_struct
 GTR	..\..\inc\stm8s.h	1862;"	member	struct:UART2_struct
-GetADCData	..\..\src\adc.c	73;"	function	signature:(void)
+GetADCData	..\..\src\adc.c	78;"	function	signature:(void)
 GetADCData	..\..\src\appli.c	49;"	prototype	file:	signature:(void)
-GetADCIOData	..\..\src\adcio.c	77;"	function	signature:(void)
+GetADCIOData	..\..\src\adcio.c	78;"	function	signature:(void)
 GetADCIOData	..\..\src\appli.c	52;"	prototype	file:	signature:(void)
 GlobalStatusRegister	..\..\src\l99pm62drv.c	88;"	variable	file:
 HSE_VALUE	..\..\inc\stm8s.h	100;"	macro
@@ -1799,7 +1800,7 @@ IdentifierParityError	..\..\src\lin.c	107;"	variable
 Idle	..\..\src\lin.c	40;"	enumerator	enum:__anon108	file:
 IncrementScheduleTableTick	..\..\src\lin.c	84;"	macro	file:
 IncrementStatus	..\..\src\appli.c	212;"	prototype	file:	signature:(void)
-IncrementStatus	..\..\src\appli.c	490;"	function	signature:(void)
+IncrementStatus	..\..\src\appli.c	499;"	function	signature:(void)
 Index	..\..\src\lin.c	101;"	variable	file:
 InitFlag	..\..\src\l99pm62drv.c	92;"	variable	file:
 InitScheduleTable	..\..\src\lin.c	164;"	function	signature:(void)
@@ -1901,7 +1902,7 @@ L99PM62DRV_WDC_TRIG_200	..\..\inc\l99pm62drv.h	465;"	enumerator	enum:__anon107
 L99PM62DRV_WDC_TRIG_50	..\..\inc\l99pm62drv.h	463;"	enumerator	enum:__anon107
 L99PM62DRV_WU_INPUT_MODE_CUR_SINK	..\..\inc\l99pm62drv.h	383;"	enumerator	enum:__anon100
 L99PM62DRV_WU_INPUT_MODE_CUR_SOURCE	..\..\inc\l99pm62drv.h	385;"	enumerator	enum:__anon100
-L99PM62WdgTriggerRefreshValue10	..\..\src\main.c	57;"	macro	file:
+L99PM62WdgTriggerRefreshValue10	..\..\src\main.c	59;"	macro	file:
 L99PM62_CommError	..\..\inc\l99pm62drv.h	46;"	macro
 L99PM62_NoError	..\..\inc\l99pm62drv.h	45;"	macro
 L99PM62_TSD1	..\..\inc\l99pm62drv.h	50;"	macro
@@ -2000,8 +2001,8 @@ L99PM62drv_Timer2PeriodType	..\..\inc\l99pm62drv.h	372;"	typedef	typeref:enum:__
 L99PM62drv_VoltageReg2ModeType	..\..\inc\l99pm62drv.h	347;"	typedef	typeref:enum:__anon95
 L99PM62drv_WDTimingType	..\..\inc\l99pm62drv.h	466;"	typedef	typeref:enum:__anon107
 L99PM62drv_WUInputModeType	..\..\inc\l99pm62drv.h	387;"	typedef	typeref:enum:__anon100
-L99PM62drv_WdgAutoTrigger	..\..\src\main.c	275;"	function	signature:( u32 WdgAutoTriggerValue)
-L99PM62drv_WdgAutoTrigger	..\..\src\main.c	73;"	prototype	file:	signature:(u32 WdgAutoTriggerValue)
+L99PM62drv_WdgAutoTrigger	..\..\src\main.c	278;"	function	signature:( u32 WdgAutoTriggerValue)
+L99PM62drv_WdgAutoTrigger	..\..\src\main.c	75;"	prototype	file:	signature:(u32 WdgAutoTriggerValue)
 L99PM62drv_WdgTrigger	..\..\inc\l99pm62drv.h	519;"	prototype	signature:(void)
 L99PM62drv_WdgTrigger	..\..\src\l99pm62drv.c	198;"	function	signature:(void)
 L99PM62drv_WriteControl	..\..\inc\l99pm62drv.h	1010;"	prototype	signature:( L99PM62drv_RegIDType regID,L99PM62drv_RegType *DataPtr)
@@ -2017,7 +2018,7 @@ LD6_GREEN_LED_ON	..\..\src\appli.c	66;"	macro	file:
 LD7_GREEN_LED_OFF	..\..\src\appli.c	73;"	macro	file:
 LD7_GREEN_LED_ON	..\..\src\appli.c	67;"	macro	file:
 LED_Display	..\..\src\appli.c	219;"	prototype	file:	signature:(uint8_t Ledstatus)
-LED_Display	..\..\src\appli.c	770;"	function	signature:(uint8_t Ledstatus)
+LED_Display	..\..\src\appli.c	779;"	function	signature:(uint8_t Ledstatus)
 LINChecksum	..\..\src\lin.c	117;"	prototype	file:	signature:(uint8_t*, uint8_t)
 LINChecksum	..\..\src\lin.c	737;"	function	signature:(uint8_t* Checksum_Buffer, uint8_t Data_Number)
 LINChecksumBuffer	..\..\src\lin.c	91;"	variable	file:
@@ -2247,7 +2248,7 @@ RST_SR_WWDGF	..\..\inc\stm8s.h	1670;"	macro
 RST_TypeDef	..\..\inc\stm8s.h	1660;"	typedef	typeref:struct:RST_struct
 RST_struct	..\..\inc\stm8s.h	1656;"	struct
 RXCRCR	..\..\inc\stm8s.h	1689;"	member	struct:SPI_struct
-ReceptionEnable	..\..\src\main.c	67;"	variable
+ReceptionEnable	..\..\src\main.c	69;"	variable
 ReceptionError	..\..\src\lin.c	113;"	variable
 Reserved1	..\..\inc\stm8s.h	2182;"	member	struct:__anon79::__anon80::__anon86
 Reserved2	..\..\inc\stm8s.h	2188;"	member	struct:__anon79::__anon80::__anon86
@@ -2461,7 +2462,7 @@ ScheduleTableIndex	..\..\src\lin.c	93;"	variable	file:
 ScheduleTableTick	..\..\src\lin.c	95;"	variable	file:
 SendCANFrame	..\..\src\can.c	51;"	variable	file:
 SetAppliTimebaseTick	..\..\src\appli.c	221;"	prototype	file:	signature:(void)
-SetAppliTimebaseTick	..\..\src\appli.c	736;"	function	signature:(void)
+SetAppliTimebaseTick	..\..\src\appli.c	745;"	function	signature:(void)
 SetAppliTimebaseTick	..\..\src\stm8s_it.c	46;"	prototype	file:	signature:(void)
 SetBit	..\..\inc\stm8s.h	2675;"	macro
 SetCANTimebaseTick	..\..\src\can.c	336;"	function	signature:(void)
@@ -3213,8 +3214,8 @@ TIM4_ClearITPendingBit	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_ti
 TIM4_ClearITPendingBit	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_tim4.c	391;"	function	signature:(TIM4_IT_TypeDef TIM4_IT)
 TIM4_Cmd	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	134;"	prototype	signature:(FunctionalState NewState)
 TIM4_Cmd	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_tim4.c	77;"	function	signature:(FunctionalState NewState)
-TIM4_Config	..\..\src\main.c	249;"	function	file:	signature:(void)
-TIM4_Config	..\..\src\main.c	70;"	prototype	file:	signature:(void)
+TIM4_Config	..\..\src\main.c	252;"	function	file:	signature:(void)
+TIM4_Config	..\..\src\main.c	72;"	prototype	file:	signature:(void)
 TIM4_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	132;"	prototype	signature:(void)
 TIM4_DeInit	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_tim4.c	43;"	function	signature:(void)
 TIM4_EGR_RESET_VALUE	..\..\inc\stm8s.h	1066;"	macro
@@ -3242,7 +3243,7 @@ TIM4_IT_UPDATE	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	114
 TIM4_OPMODE_REPETITIVE	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	67;"	enumerator	enum:__anon58
 TIM4_OPMODE_SINGLE	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	66;"	enumerator	enum:__anon58
 TIM4_OPMode_TypeDef	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	68;"	typedef	typeref:enum:__anon58
-TIM4_PERIOD	..\..\src\main.c	56;"	macro	file:
+TIM4_PERIOD	..\..\src\main.c	58;"	macro	file:
 TIM4_PRESCALER_1	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	44;"	enumerator	enum:__anon57
 TIM4_PRESCALER_128	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	51;"	enumerator	enum:__anon57
 TIM4_PRESCALER_16	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h	48;"	enumerator	enum:__anon57
@@ -3403,14 +3404,14 @@ TRUE	..\..\inc\stm8s.h	220;"	enumerator	enum:__anon75
 TSR	..\..\inc\stm8s.h	2055;"	member	struct:__anon79
 TXCRCR	..\..\inc\stm8s.h	1690;"	member	struct:SPI_struct
 TestAppliTimebaseTick	..\..\src\appli.c	218;"	prototype	file:	signature:(void)
-TestAppliTimebaseTick	..\..\src\appli.c	758;"	function	signature:(void)
+TestAppliTimebaseTick	..\..\src\appli.c	767;"	function	signature:(void)
 TestCANTimebaseTick	..\..\src\can.c	358;"	function	signature:(void)
 TestCANTimebaseTick	..\..\src\can.c	64;"	prototype	file:	signature:(void)
 TestLINTimebaseTick	..\..\src\lin.c	122;"	prototype	file:	signature:(void)
 TestLINTimebaseTick	..\..\src\lin.c	914;"	function	signature:(void)
-TimingDelay	..\..\src\main.c	63;"	variable	file:
-TimingDelay_Decrement	..\..\src\main.c	308;"	function	signature:(void)
-TimingDelay_Decrement	..\..\src\main.c	72;"	prototype	file:	signature:(void)
+TimingDelay	..\..\src\main.c	65;"	variable	file:
+TimingDelay_Decrement	..\..\src\main.c	311;"	function	signature:(void)
+TimingDelay_Decrement	..\..\src\main.c	74;"	prototype	file:	signature:(void)
 TimingDelay_Decrement	..\..\src\stm8s_it.c	47;"	prototype	file:	signature:(void)
 TransmissionEnable	..\..\src\can.c	56;"	variable
 TxMailbox	..\..\inc\stm8s.h	2083;"	member	union:__anon79::__anon80	typeref:struct:__anon79::__anon80::__anon81
@@ -3783,17 +3784,17 @@ UART3_struct	..\..\inc\stm8s.h	1958;"	struct
 USE_FULL_ASSERT	..\..\inc\stm8s_conf.h	81;"	macro
 USE_STDPERIPH_DRIVER	..\..\inc\stm8s.h	86;"	macro
 UpdateBarStatus	..\..\src\appli.c	214;"	prototype	file:	signature:(void)
-UpdateBarStatus	..\..\src\appli.c	529;"	function	signature:(void)
+UpdateBarStatus	..\..\src\appli.c	538;"	function	signature:(void)
 UpdateMasterLedStatus	..\..\src\appli.c	215;"	prototype	file:	signature:(void)
-UpdateMasterLedStatus	..\..\src\appli.c	632;"	function	signature:(void)
+UpdateMasterLedStatus	..\..\src\appli.c	641;"	function	signature:(void)
 UpdateSlaveLedStatus	..\..\src\appli.c	216;"	prototype	file:	signature:(void)
-UpdateSlaveLedStatus	..\..\src\appli.c	681;"	function	signature:(void)
+UpdateSlaveLedStatus	..\..\src\appli.c	690;"	function	signature:(void)
 UserButton1	..\..\src\appli.c	203;"	variable
 UserButton1Status	..\..\src\appli.c	210;"	prototype	file:	signature:(void)
-UserButton1Status	..\..\src\appli.c	445;"	function	signature:(void)
+UserButton1Status	..\..\src\appli.c	454;"	function	signature:(void)
 UserButton2	..\..\src\appli.c	204;"	variable
 UserButton2Status	..\..\src\appli.c	211;"	prototype	file:	signature:(void)
-UserButton2Status	..\..\src\appli.c	468;"	function	signature:(void)
+UserButton2Status	..\..\src\appli.c	477;"	function	signature:(void)
 VECTOR_ID	..\..\inc\stm8s.h	2645;"	macro
 ValBit	..\..\inc\stm8s.h	2684;"	macro
 WR	..\..\inc\stm8s.h	1621;"	member	struct:WWDG_struct
@@ -3859,10 +3860,10 @@ WWDG_WR_MSB	..\..\inc\stm8s.h	1644;"	macro
 WWDG_WR_RESET_VALUE	..\..\inc\stm8s.h	1630;"	macro
 WWDG_WR_W	..\..\inc\stm8s.h	1645;"	macro
 WWDG_struct	..\..\inc\stm8s.h	1618;"	struct
-WdgAutoDecrement	..\..\src\main.c	287;"	function	signature:(void)
+WdgAutoDecrement	..\..\src\main.c	290;"	function	signature:(void)
 WdgAutoDecrement	..\..\src\stm8s_it.c	48;"	prototype	file:	signature:(void)
-WdgTrigger	..\..\src\main.c	64;"	variable	file:
-WdgTriggerReload	..\..\src\main.c	65;"	variable	file:
+WdgTrigger	..\..\src\main.c	66;"	variable	file:
+WdgTriggerReload	..\..\src\main.c	67;"	variable	file:
 _COSMIC_	..\..\inc\stm8s.h	73;"	macro
 _DLC	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_can.c	39;"	variable
 _Data	..\..\..\..\libraries\stm8s_stdperiph_driver\src\stm8s_can.c	40;"	variable
@@ -3912,7 +3913,7 @@ __STM8S_WWDG_H	..\..\..\..\libraries\stm8s_stdperiph_driver\inc\stm8s_wwdg.h	24;
 _stext	..\..\inc\stm8s_it.h	34;"	prototype	signature:(void)
 _vectab	..\..\src\stm8_interrupt_vector.c	14;"	variable
 assert_failed	..\..\inc\stm8s_conf.h	96;"	prototype	signature:(uint8_t* file, uint32_t line)
-assert_failed	..\..\src\main.c	339;"	function	signature:(uint8_t* file, uint32_t line)
+assert_failed	..\..\src\main.c	342;"	function	signature:(uint8_t* file, uint32_t line)
 assert_param	..\..\inc\stm8s_conf.h	94;"	macro
 assert_param	..\..\inc\stm8s_conf.h	98;"	macro
 bool	..\..\inc\stm8s.h	220;"	typedef	typeref:enum:__anon75
@@ -3933,7 +3934,7 @@ interrupt_handler	..\..\src\stm8_interrupt_vector.c	11;"	member	struct:interrupt
 interrupt_handler_t	..\..\src\stm8_interrupt_vector.c	7;"	typedef	file:
 interrupt_instruction	..\..\src\stm8_interrupt_vector.c	10;"	member	struct:interrupt_vector	file:
 interrupt_vector	..\..\src\stm8_interrupt_vector.c	9;"	struct	file:
-main	..\..\src\main.c	84;"	function	signature:(void)
+main	..\..\src\main.c	86;"	function	signature:(void)
 motorDuty1	..\..\src\appli.c	199;"	variable	file:
 nop	..\..\inc\stm8s.h	2606;"	macro
 nop	..\..\inc\stm8s.h	2615;"	macro

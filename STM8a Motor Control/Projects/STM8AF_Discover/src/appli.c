@@ -263,7 +263,7 @@ void Appli(void)
 			/* read PB0 and update LIN signal */
 			Data0 = (uint8_t) GetADCData();
 			Data1 = (uint8_t) (GetADCData()>>8);
-			/*Data0 = (uint8_t) GetADCIOData();
+/*			Data0 = (uint8_t) GetADCIOData();
 			Data1 = (uint8_t) (GetADCIOData()>>8);*/
 			/*Start ADC Conversion 
 			ADC2_StartConversion();*/
@@ -273,6 +273,12 @@ void Appli(void)
 			/*motorDuty1 = (uint8_t) (GetADCData()>>2);*/
 			motorDuty1 = (Data1 << 6) | (Data0 >> 2);
 			/*motorDuty1 = (uint8_t) 0xFF;*/
+			/*Start ADC Conversion */
+			ADC2_StartConversion();
+								
+			Data0 = (uint8_t) GetADCIOData();
+			Data1 = (uint8_t) (GetADCIOData()>>8);
+			
 			
 			/* CAN "Master" test mode */
 			if ((TransmissionEnable==TRUE)&&(CANMaster==TRUE))

@@ -1,5 +1,5 @@
 
-Map of ..\..\..\stvd\cosmic\stm8af_discover.sm8 from link file ..\..\..\stvd\cosmic\stm8af_discover.lkf - Sun Jun 05 16:18:07 2016
+Map of ..\..\..\stvd\cosmic\stm8af_discover.sm8 from link file ..\..\..\stvd\cosmic\stm8af_discover.lkf - Sun Jun 05 17:40:16 2016
 
 
                                --------
@@ -7,15 +7,15 @@ Map of ..\..\..\stvd\cosmic\stm8af_discover.sm8 from link file ..\..\..\stvd\cos
                                --------
 
 start 00008080 end 0000828e length   526 segment .const
-start 0000831a end 0000cf4f length 19509 segment .text
+start 0000831c end 0000cf81 length 19557 segment .text
 start 00004000 end 00004000 length     0 segment .eeprom
 start 00000000 end 00000000 length     0 segment .bsct
 start 00000000 end 0000000a length    10 segment .ubsct
 start 0000000a end 0000000a length     0 segment .bit
 start 0000000a end 0000000a length     0 segment .share
-start 00000100 end 00000184 length   132 segment .data, initialized
-start 00008296 end 0000831a length   132 segment .data, from
-start 00000184 end 00000212 length   142 segment .bss
+start 00000100 end 00000186 length   134 segment .data, initialized
+start 00008296 end 0000831c length   134 segment .data, from
+start 00000186 end 00000214 length   142 segment .bss
 start 00000000 end 00000f42 length  3906 segment .info.
 start 00000000 end 0000dd77 length 56695 segment .debug
 start 00008000 end 00008080 length   128 segment .const
@@ -27,143 +27,143 @@ start 0000828e end 00008296 length     8 segment .init
                                -------
 
 C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
-start 0000831a end 0000836a length    80 section .text
-start 00000184 end 00000184 length     0 section .bss
+start 0000831c end 0000836c length    80 section .text
+start 00000186 end 00000186 length     0 section .bss
 start 00000000 end 00000000 length     0 section .ubsct
 start 00000000 end 0000002f length    47 section .info.
 
 ..\..\..\stvd\cosmic\stm8s_exti.o:
-start 0000836a end 000084a9 length   319 section .text
+start 0000836c end 000084ab length   319 section .text
 start 00000000 end 00000487 length  1159 section .debug
 start 0000002f end 000000ce length   159 section .info.
 start 00008080 end 000080be length    62 section .const
 
 ..\..\..\stvd\cosmic\stm8s_adc2.o:
-start 000084a9 end 000088dc length  1075 section .text
+start 000084ab end 000088de length  1075 section .text
 start 00000487 end 0000139c length  3861 section .debug
 start 000000ce end 0000016d length   159 section .info.
 start 000080be end 000080fc length    62 section .const
 
 ..\..\..\stvd\cosmic\stm8s_can.o:
-start 000088dc end 00009662 length  3462 section .text
+start 000088de end 00009664 length  3462 section .text
 start 00000100 end 00000110 length    16 section .data
 start 0000139c end 00003a89 length  9965 section .debug
 start 0000016d end 0000020b length   158 section .info.
 start 000080fc end 00008141 length    69 section .const
 
 ..\..\..\stvd\cosmic\stm8s_clk.o:
-start 00009662 end 00009c2d length  1483 section .text
+start 00009664 end 00009c2f length  1483 section .text
 start 00003a89 end 000050e0 length  5719 section .debug
 start 0000020b end 000002a9 length   158 section .info.
 start 00008141 end 0000818a length    73 section .const
 
 ..\..\..\stvd\cosmic\stm8s_gpio.o:
-start 00009c2d end 00009d41 length   276 section .text
+start 00009c2f end 00009d43 length   276 section .text
 start 000050e0 end 00005ae6 length  2566 section .debug
 start 000002a9 end 00000348 length   159 section .info.
 start 0000818a end 000081c8 length    62 section .const
 
 ..\..\..\stvd\cosmic\stm8s_spi.o:
-start 00009d41 end 0000a07a length   825 section .text
+start 00009d43 end 0000a07c length   825 section .text
 start 00005ae6 end 000069fe length  3864 section .debug
 start 00000348 end 000003e6 length   158 section .info.
 start 000081c8 end 00008205 length    61 section .const
 
 ..\..\..\stvd\cosmic\stm8s_tim4.o:
-start 0000a07a end 0000a2cc length   594 section .text
+start 0000a07c end 0000a2ce length   594 section .text
 start 000069fe end 000075a1 length  2979 section .debug
 start 000003e6 end 00000485 length   159 section .info.
 start 00008205 end 00008243 length    62 section .const
 
 ..\..\..\stvd\cosmic\stm8s_uart3.o:
-start 0000a2cc end 0000a87c length  1456 section .text
+start 0000a2ce end 0000a87e length  1456 section .text
 start 000075a1 end 00008691 length  4336 section .debug
 start 00000485 end 00000525 length   160 section .info.
 start 00008243 end 0000828a length    71 section .const
 
 ..\..\..\stvd\cosmic\adcio.o:
-start ******** end ******** length     0 section .text *** removed ***
-start ******** end ******** length     0 section .data *** removed ***
+start 0000a87e end 0000a8a3 length    37 section .text
+start 00000110 end 00000112 length     2 section .data
 start 00008691 end 000087af length   286 section .debug
 start 00000525 end 000005bf length   154 section .info.
 
 ..\..\..\stvd\cosmic\appli.o:
-start 0000a87c end 0000afeb length  1903 section .text
-start 00000110 end 00000117 length     7 section .data
-start 00000184 end 00000186 length     2 section .bss
+start 0000a8a3 end 0000b025 length  1922 section .text
+start 00000112 end 00000119 length     7 section .data
+start 00000186 end 00000188 length     2 section .bss
 start 000087af end 00008cd1 length  1314 section .debug
 start 000005bf end 00000659 length   154 section .info.
 start 0000828a end 0000828e length     4 section .const
 
 ..\..\..\stvd\cosmic\adc.o:
-start 0000afeb end 0000b012 length    39 section .text
-start 00000117 end 00000119 length     2 section .data
+start 0000b025 end 0000b04c length    39 section .text
+start 00000119 end 0000011b length     2 section .data
 start 00008cd1 end 00008de6 length   277 section .debug
 start 00000659 end 000006f1 length   152 section .info.
 
 ..\..\..\stvd\cosmic\can.o:
-start 0000b012 end 0000b24c length   570 section .text
-start 00000119 end 0000012f length    22 section .data
-start 00000186 end 000001a6 length    32 section .bss
+start 0000b04c end 0000b286 length   570 section .text
+start 0000011b end 00000131 length    22 section .data
+start 00000188 end 000001a8 length    32 section .bss
 start 00008de6 end 0000a15c length  4982 section .debug
 start 000006f1 end 00000789 length   152 section .info.
 
 ..\..\..\stvd\cosmic\l99pm62drv.o:
-start 0000b24c end 0000c1ce length  3970 section .text
-start 0000012f end 00000131 length     2 section .data
-start 000001a6 end 000001ca length    36 section .bss
+start 0000b286 end 0000c208 length  3970 section .text
+start 00000131 end 00000133 length     2 section .data
+start 000001a8 end 000001cc length    36 section .bss
 start 0000a15c end 0000c49b length  9023 section .debug
 start 00000789 end 00000828 length   159 section .info.
 
 ..\..\..\stvd\cosmic\lin.o:
-start 0000c1ce end 0000c87e length  1712 section .text
-start 00000131 end 00000176 length    69 section .data
-start 000001ca end 00000212 length    72 section .bss
+start 0000c208 end 0000c8b8 length  1712 section .text
+start 00000133 end 00000178 length    69 section .data
+start 000001cc end 00000214 length    72 section .bss
 start 0000c49b end 0000d027 length  2956 section .debug
 start 00000828 end 000008c0 length   152 section .info.
 
 ..\..\..\stvd\cosmic\main.o:
-start 0000c87e end 0000ca3a length   444 section .text
-start 00000176 end 00000183 length    13 section .data
+start 0000c8b8 end 0000ca6c length   436 section .text
+start 00000178 end 00000185 length    13 section .data
 start 0000d027 end 0000d45c length  1077 section .debug
 start 000008c0 end 00000959 length   153 section .info.
 
 ..\..\..\stvd\cosmic\stm8s_it.o:
-start 0000ca3a end 0000cbbe length   388 section .text
-start 00000183 end 00000184 length     1 section .data
+start 0000ca6c end 0000cbf0 length   388 section .text
+start 00000185 end 00000186 length     1 section .data
 start 0000d45c end 0000dc51 length  2037 section .debug
 start 00000959 end 000009f6 length   157 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)fdiv.o:
-start 0000cbbe end 0000cc42 length   132 section .text
+start 0000cbf0 end 0000cc74 length   132 section .text
 start 000009f6 end 00000a24 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ftol.o:
-start 0000cc42 end 0000cca4 length    98 section .text
+start 0000cc74 end 0000ccd6 length    98 section .text
 start 00000a24 end 00000a52 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itof.o:
-start 0000cca4 end 0000ccd2 length    46 section .text
+start 0000ccd6 end 0000cd04 length    46 section .text
 start 00000a52 end 00000a80 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o:
-start 0000ccd2 end 0000ccf2 length    32 section .text
+start 0000cd04 end 0000cd24 length    32 section .text
 start 00000a80 end 00000aae length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsbc.o:
-start 0000ccf2 end 0000cd08 length    22 section .text
+start 0000cd24 end 0000cd3a length    22 section .text
 start 00000aae end 00000add length    47 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgursh.o:
-start 0000cd08 end 0000cd16 length    14 section .text
+start 0000cd3a end 0000cd48 length    14 section .text
 start 00000add end 00000b0d length    48 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o:
-start 0000cd16 end 0000cd25 length    15 section .text
+start 0000cd48 end 0000cd57 length    15 section .text
 start 00000b0d end 00000b3b length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o:
-start 0000cd25 end 0000cd3d length    24 section .text
+start 0000cd57 end 0000cd6f length    24 section .text
 start 00000b3b end 00000b68 length    45 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
@@ -171,55 +171,55 @@ start 00000000 end 00000004 length     4 section .ubsct
 start 00000b68 end 00000b96 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o:
-start 0000cd3d end 0000cd55 length    24 section .text
+start 0000cd6f end 0000cd87 length    24 section .text
 start 00000b96 end 00000bc4 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
-start 0000cd55 end 0000cd67 length    18 section .text
+start 0000cd87 end 0000cd99 length    18 section .text
 start 00000bc4 end 00000bf2 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o:
-start 0000cd67 end 0000cd7b length    20 section .text
+start 0000cd99 end 0000cdad length    20 section .text
 start 00000bf2 end 00000c21 length    47 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
-start 0000cd7b end 0000ce66 length   235 section .text
+start 0000cdad end 0000ce98 length   235 section .text
 start 00000c21 end 00000c4f length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
-start 0000ce66 end 0000ce79 length    19 section .text
+start 0000ce98 end 0000ceab length    19 section .text
 start 00000c4f end 00000c7e length    47 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
-start 0000ce79 end 0000ce8e length    21 section .text
+start 0000ceab end 0000cec0 length    21 section .text
 start 00000c7e end 00000cac length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o:
-start 0000ce8e end 0000ce9d length    15 section .text
+start 0000cec0 end 0000cecf length    15 section .text
 start 00000cac end 00000cdb length    47 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o:
-start 0000ce9d end 0000ceb0 length    19 section .text
+start 0000cecf end 0000cee2 length    19 section .text
 start 00000cdb end 00000d09 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
-start 0000ceb0 end 0000cec2 length    18 section .text
+start 0000cee2 end 0000cef4 length    18 section .text
 start 00000d09 end 00000d37 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)smul.o:
-start 0000cec2 end 0000cf01 length    63 section .text
+start 0000cef4 end 0000cf33 length    63 section .text
 start 00000d37 end 00000d65 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o:
-start 0000cf01 end 0000cf0c length    11 section .text
+start 0000cf33 end 0000cf3e length    11 section .text
 start 00000d65 end 00000d93 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o:
-start 0000cf0c end 0000cf13 length     7 section .text
+start 0000cf3e end 0000cf45 length     7 section .text
 start 00000d93 end 00000dc2 length    47 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o:
-start 0000cf13 end 0000cf4f length    60 section .text
+start 0000cf45 end 0000cf81 length    60 section .text
 start 00000dc2 end 00000df0 length    46 section .info.
 
 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
@@ -243,6 +243,10 @@ start 00008000 end 00008080 length   128 section .const
 ..\..\..\stvd\cosmic\adc.o:
 _ADC_Config                                 23   (2)
 _GetADCData                                  2   (2)
+
+..\..\..\stvd\cosmic\adcio.o:
+_ADCIO_Config                               23   (2)
+_GetADCIOData                                2   (2)
 
 ..\..\..\stvd\cosmic\appli.o:
 L12_IncrementStatus                          9   (2)
@@ -928,7 +932,7 @@ Stack size: 90
  272      + _ADC2_ITConfig: (3)
  273      |    + _assert_failed --> 3
           | 
- 274      + _ADC_Config: (2)
+ 274      + _ADCIO_Config: (2)
  275      |    + _ADC2_DeInit: (2)
  276      |    + _ADC2_Init: (10)
  277      |    |    + _ADC2_ConversionConfig: (5)
@@ -947,429 +951,439 @@ Stack size: 90
           |    | 
  286      |    + _GPIO_Init --> 263
           | 
- 287      + _Appli: (3)
- 288      |    + L12_IncrementStatus: (2)
- 289      |    |    + L13_UpdateSlaveLedStatus: (2)
- 290      |    |    |    + _CAN_WriteData: (5)
-          |    |    | 
- 291      |    |    + L52_UpdateBarStatus: (2)
- 292      |    |    |    + _LIN_WriteData: (5)
-          |    |    | 
- 293      |    |    + L72_UpdateMasterLedStatus: (2)
- 294      |    |    |    + _CAN_WriteData --> 290
-          |    |    | 
-          |    | 
- 295      |    + L32_DecrementStatus: (2)
- 296      |    |    + L13_UpdateSlaveLedStatus --> 289
- 297      |    |    + L52_UpdateBarStatus --> 291
- 298      |    |    + L72_UpdateMasterLedStatus --> 293
-          |    | 
- 299      |    + L33_ClearAppliTimebaseTick: (2)
- 300      |    + L51_UserButton1Status: (2)
- 301      |    + L53_TestAppliTimebaseTick: (2)
- 302      |    + L71_UserButton2Status: (2)
- 303      |    + L73_LED_Display: (2)
- 304      |    |    + _GPIO_WriteHigh: (5)
- 305      |    |    + _GPIO_WriteLow: (5)
-          |    | 
- 306      |    + _ADC2_StartConversion: (2)
- 307      |    + _CAN_ReadData: (4)
- 308      |    + _CAN_WriteData --> 290
- 309      |    + _GPIO_WriteHigh --> 304
- 310      |    + _GPIO_WriteLow --> 305
- 311      |    + _GetADCData: (2)
- 312      |    + _L99PM62drv_SetPWMDutyCycle: (6)
- 313      |    |    + _L99PM62drv_ReportError --> 98
- 314      |    |    + _ST_SPI_Send_16 --> 99
-          |    | 
- 315      |    + _LIN_ReadData: (4)
- 316      |    + _LIN_WriteData --> 292
+ 287      + _ADC_Config: (2)
+ 288      |    + _ADC2_DeInit --> 275
+ 289      |    + _ADC2_Init --> 276
+ 290      |    + _GPIO_Init --> 263
           | 
- 317      + _CAN_Config: (21)
- 318      |    + _CAN_DeInit: (2)
- 319      |    |    + _CAN_OperatingModeRequest: (6)
- 320      |    |    |    + _assert_failed --> 3
+ 291      + _Appli: (3)
+ 292      |    + L12_IncrementStatus: (2)
+ 293      |    |    + L13_UpdateSlaveLedStatus: (2)
+ 294      |    |    |    + _CAN_WriteData: (5)
+          |    |    | 
+ 295      |    |    + L52_UpdateBarStatus: (2)
+ 296      |    |    |    + _LIN_WriteData: (5)
+          |    |    | 
+ 297      |    |    + L72_UpdateMasterLedStatus: (2)
+ 298      |    |    |    + _CAN_WriteData --> 294
           |    |    | 
           |    | 
- 321      |    + _CAN_FilterInit: (19)
- 322      |    |    + _CAN_GetSelectedPage --> 7
- 323      |    |    + _CAN_OperatingModeRequest --> 319
- 324      |    |    + _CAN_SelectPage --> 8
- 325      |    |    + _assert_failed --> 3
+ 299      |    + L32_DecrementStatus: (2)
+ 300      |    |    + L13_UpdateSlaveLedStatus --> 293
+ 301      |    |    + L52_UpdateBarStatus --> 295
+ 302      |    |    + L72_UpdateMasterLedStatus --> 297
           |    | 
- 326      |    + _CAN_ITConfig: (8)
+ 303      |    + L33_ClearAppliTimebaseTick: (2)
+ 304      |    + L51_UserButton1Status: (2)
+ 305      |    + L53_TestAppliTimebaseTick: (2)
+ 306      |    + L71_UserButton2Status: (2)
+ 307      |    + L73_LED_Display: (2)
+ 308      |    |    + _GPIO_WriteHigh: (5)
+ 309      |    |    + _GPIO_WriteLow: (5)
+          |    | 
+ 310      |    + _ADC2_StartConversion: (2)
+ 311      |    + _CAN_ReadData: (4)
+ 312      |    + _CAN_WriteData --> 294
+ 313      |    + _GPIO_WriteHigh --> 308
+ 314      |    + _GPIO_WriteLow --> 309
+ 315      |    + _GetADCData: (2)
+ 316      |    + _GetADCIOData: (2)
+ 317      |    + _L99PM62drv_SetPWMDutyCycle: (6)
+ 318      |    |    + _L99PM62drv_ReportError --> 98
+ 319      |    |    + _ST_SPI_Send_16 --> 99
+          |    | 
+ 320      |    + _LIN_ReadData: (4)
+ 321      |    + _LIN_WriteData --> 296
+          | 
+ 322      + _CAN_Config: (21)
+ 323      |    + _CAN_DeInit: (2)
+ 324      |    |    + _CAN_OperatingModeRequest: (6)
+ 325      |    |    |    + _assert_failed --> 3
+          |    |    | 
+          |    | 
+ 326      |    + _CAN_FilterInit: (19)
  327      |    |    + _CAN_GetSelectedPage --> 7
- 328      |    |    + _CAN_SelectPage --> 8
- 329      |    |    + _assert_failed --> 3
+ 328      |    |    + _CAN_OperatingModeRequest --> 324
+ 329      |    |    + _CAN_SelectPage --> 8
+ 330      |    |    + _assert_failed --> 3
           |    | 
- 330      |    + _CAN_Init: (12)
- 331      |    |    + _CAN_GetSelectedPage --> 7
- 332      |    |    + _CAN_SelectPage --> 8
- 333      |    |    + _assert_failed --> 3
+ 331      |    + _CAN_ITConfig: (8)
+ 332      |    |    + _CAN_GetSelectedPage --> 7
+ 333      |    |    + _CAN_SelectPage --> 8
+ 334      |    |    + _assert_failed --> 3
           |    | 
-          | 
- 334      + _CAN_Task: (3)
- 335      |    + L13_TestCANTimebaseTick: (2)
- 336      |    + L72_ClearCANTimebaseTick: (2)
- 337      |    + _CAN_GetReceivedData: (3)
+ 335      |    + _CAN_Init: (12)
+ 336      |    |    + _CAN_GetSelectedPage --> 7
+ 337      |    |    + _CAN_SelectPage --> 8
  338      |    |    + _assert_failed --> 3
           |    | 
- 339      |    + _CAN_GetReceivedId: (2)
- 340      |    + _CAN_Transmit: (17)
- 341      |    |    + _CAN_GetSelectedPage --> 7
- 342      |    |    + _CAN_SelectPage --> 8
+          | 
+ 339      + _CAN_Task: (3)
+ 340      |    + L13_TestCANTimebaseTick: (2)
+ 341      |    + L72_ClearCANTimebaseTick: (2)
+ 342      |    + _CAN_GetReceivedData: (3)
  343      |    |    + _assert_failed --> 3
           |    | 
- 344      |    + _GPIO_WriteLow --> 305
+ 344      |    + _CAN_GetReceivedId: (2)
+ 345      |    + _CAN_Transmit: (17)
+ 346      |    |    + _CAN_GetSelectedPage --> 7
+ 347      |    |    + _CAN_SelectPage --> 8
+ 348      |    |    + _assert_failed --> 3
+          |    | 
+ 349      |    + _GPIO_WriteLow --> 309
           | 
- 345      + _InitScheduleTable: (2)
- 346      + _L99PM62drv_Init: (3)
- 347      + _LIN_MasterConfig: (2)
- 348      |    + _UART3_DeInit: (2)
- 349      |    + _UART3_ITConfig: (7)
- 350      |    |    + _assert_failed --> 3
-          |    | 
- 351      |    + _UART3_Init: (24)
- 352      |    |    + _CLK_GetClockFreq: (11)
- 353      |    |    + _assert_failed --> 3
-          |    | 
- 354      |    + _UART3_LINBreakDetectionConfig: (3)
+ 350      + _InitScheduleTable: (2)
+ 351      + _L99PM62drv_Init: (3)
+ 352      + _LIN_MasterConfig: (2)
+ 353      |    + _UART3_DeInit: (2)
+ 354      |    + _UART3_ITConfig: (7)
  355      |    |    + _assert_failed --> 3
           |    | 
- 356      |    + _UART3_LINCmd: (3)
- 357      |    |    + _assert_failed --> 3
+ 356      |    + _UART3_Init: (24)
+ 357      |    |    + _CLK_GetClockFreq: (11)
+ 358      |    |    + _assert_failed --> 3
           |    | 
- 358      |    + _UART3_LINConfig: (5)
- 359      |    |    + _assert_failed --> 3
+ 359      |    + _UART3_LINBreakDetectionConfig: (3)
+ 360      |    |    + _assert_failed --> 3
+          |    | 
+ 361      |    + _UART3_LINCmd: (3)
+ 362      |    |    + _assert_failed --> 3
+          |    | 
+ 363      |    + _UART3_LINConfig: (5)
+ 364      |    |    + _assert_failed --> 3
           |    | 
           | 
- 360      + _LIN_SlaveConfig: (2)
- 361      |    + _UART3_DeInit --> 348
- 362      |    + _UART3_ITConfig --> 349
- 363      |    + _UART3_Init --> 351
- 364      |    + _UART3_LINBreakDetectionConfig --> 354
- 365      |    + _UART3_LINCmd --> 356
- 366      |    + _UART3_LINConfig --> 358
+ 365      + _LIN_SlaveConfig: (2)
+ 366      |    + _UART3_DeInit --> 353
+ 367      |    + _UART3_ITConfig --> 354
+ 368      |    + _UART3_Init --> 356
+ 369      |    + _UART3_LINBreakDetectionConfig --> 359
+ 370      |    + _UART3_LINCmd --> 361
+ 371      |    + _UART3_LINConfig --> 363
           | 
- 367      + _LIN_Task: (7)
- 368      |    + L14_UART3_RIE: (2)
- 369      |    |    + _UART3_ITConfig --> 349
+ 372      + _LIN_Task: (7)
+ 373      |    + L14_UART3_RIE: (2)
+ 374      |    |    + _UART3_ITConfig --> 354
           |    | 
- 370      |    + L15_TestLINTimebaseTick: (2)
- 371      |    + L34_StartLINReceptionTimeout: (2)
- 372      |    + L35_ClearLINTimebaseTick: (2)
- 373      |    + L54_StopLINReceptionTimeout: (2)
- 374      |    + L55_LINError: (2)
- 375      |    |    + _GPIO_WriteHigh --> 304
+ 375      |    + L15_TestLINTimebaseTick: (2)
+ 376      |    + L34_StartLINReceptionTimeout: (2)
+ 377      |    + L35_ClearLINTimebaseTick: (2)
+ 378      |    + L54_StopLINReceptionTimeout: (2)
+ 379      |    + L55_LINError: (2)
+ 380      |    |    + _GPIO_WriteHigh --> 308
           |    | 
- 376      |    + L73_LINChecksum: (10)
- 377      |    + L74_LINReceptionTimeoutElapsed: (2)
- 378      |    |    + L55_LINError --> 374
+ 381      |    + L73_LINChecksum: (10)
+ 382      |    + L74_LINReceptionTimeoutElapsed: (2)
+ 383      |    |    + L55_LINError --> 379
           |    | 
- 379      |    + _GPIO_WriteLow --> 305
- 380      |    + _UART3_BDIE: (2)
- 381      |    |    + _UART3_ITConfig --> 349
+ 384      |    + _GPIO_WriteLow --> 309
+ 385      |    + _UART3_BDIE: (2)
+ 386      |    |    + _UART3_ITConfig --> 354
           |    | 
- 382      |    + _UART3_ReceiverWakeUpCmd: (3)
- 383      |    |    + _assert_failed --> 3
+ 387      |    + _UART3_ReceiverWakeUpCmd: (3)
+ 388      |    |    + _assert_failed --> 3
           |    | 
- 384      |    + _UART3_SendBreak: (2)
- 385      |    + _UART3_SendData8: (2)
+ 389      |    + _UART3_SendBreak: (2)
+ 390      |    + _UART3_SendData8: (2)
           | 
- 386      + _SPI_Cmd --> 211
- 387      + _SPI_DeInit: (2)
- 388      + _SPI_Init: (11)
- 389      |    + _assert_failed --> 3
+ 391      + _SPI_Cmd --> 211
+ 392      + _SPI_DeInit: (2)
+ 393      + _SPI_Init: (11)
+ 394      |    + _assert_failed --> 3
           | 
- 390      + _TIM4_Cmd: (3)
- 391      |    + _assert_failed --> 3
-          | 
-       
- 392 > f_ADC2_IRQHandler: (12)
- 393      + _ADC2_ClearITPendingBit: (2)
- 394      + _ADC2_GetConversionValue: (7)
-       
- 395 > f_AWU_IRQHandler: (6)
-
- 396 > f_CAN_RX_IRQHandler: (12)
- 397      + _CAN_Receive: (15)
- 398      |    + _CAN_FIFORelease: (2)
- 399      |    + _CAN_GetSelectedPage --> 7
- 400      |    + _CAN_SelectPage --> 8
+ 395      + _TIM4_Cmd: (3)
+ 396      |    + _assert_failed --> 3
           | 
        
- 401 > f_CAN_TX_IRQHandler: (6)
-
- 402 > f_CLK_IRQHandler: (6)
-
- 403 > f_EEPROM_EEC_IRQHandler: (6)
-
- 404 > f_EXTI_PORTA_IRQHandler: (6)
-
- 405 > f_EXTI_PORTB_IRQHandler: (6)
-
- 406 > f_EXTI_PORTC_IRQHandler: (6)
-
- 407 > f_EXTI_PORTD_IRQHandler: (6)
-
- 408 > f_EXTI_PORTE_IRQHandler: (12)
- 409      + _GPIO_ReadInputPin: (5)
+ 397 > f_ADC2_IRQHandler: (12)
+ 398      + _ADC2_ClearITPendingBit: (2)
+ 399      + _ADC2_GetConversionValue: (7)
        
- 410 > f_I2C_IRQHandler: (6)
+ 400 > f_AWU_IRQHandler: (6)
 
- 411 > f_NonHandledInterrupt: (6)
-
- 412 > f_SPI_IRQHandler: (6)
-
- 413 > f_TIM1_CAP_COM_IRQHandler: (6)
-
- 414 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
-
- 415 > f_TIM2_CAP_COM_IRQHandler: (6)
-
- 416 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
-
- 417 > f_TIM3_CAP_COM_IRQHandler: (6)
-
- 418 > f_TIM3_UPD_OVF_BRK_IRQHandler: (6)
-
- 419 > f_TIM4_UPD_OVF_IRQHandler: (12)
- 420      + _SetAppliTimebaseTick: (2)
- 421      + _SetCANTimebaseTick: (2)
- 422      + _SetLINTimebaseTick: (2)
- 423      + _TIM4_ClearITPendingBit: (3)
- 424      |    + _assert_failed --> 3
-          | 
- 425      + _TimingDelay_Decrement: (2)
- 426      + _WdgAutoDecrement: (2)
- 427      |    + _L99PM62drv_ClearStatusRegisters: (2)
- 428      |    |    + _L99PM62drv_ReportError --> 98
- 429      |    |    + _ST_SPI_Send_16 --> 99
-          |    | 
- 430      |    + _L99PM62drv_WdgTrigger: (2)
- 431      |    |    + _L99PM62drv_ReportError --> 98
- 432      |    |    + _ST_SPI_Send_16 --> 99
-          |    | 
+ 401 > f_CAN_RX_IRQHandler: (12)
+ 402      + _CAN_Receive: (15)
+ 403      |    + _CAN_FIFORelease: (2)
+ 404      |    + _CAN_GetSelectedPage --> 7
+ 405      |    + _CAN_SelectPage --> 8
           | 
        
- 433 > f_TLI_IRQHandler: (6)
+ 406 > f_CAN_TX_IRQHandler: (6)
 
- 434 > f_TRAP_IRQHandler: (6)
+ 407 > f_CLK_IRQHandler: (6)
 
- 435 > f_UART1_RX_IRQHandler: (6)
+ 408 > f_EEPROM_EEC_IRQHandler: (6)
 
- 436 > f_UART1_TX_IRQHandler: (6)
+ 409 > f_EXTI_PORTA_IRQHandler: (6)
 
- 437 > f_UART3_RX_IRQHandler: (12)
- 438      + _UART3_BDIE --> 380
+ 410 > f_EXTI_PORTB_IRQHandler: (6)
+
+ 411 > f_EXTI_PORTC_IRQHandler: (6)
+
+ 412 > f_EXTI_PORTD_IRQHandler: (6)
+
+ 413 > f_EXTI_PORTE_IRQHandler: (12)
+ 414      + _GPIO_ReadInputPin: (5)
        
- 439 > f_UART3_TX_IRQHandler: (6)
+ 415 > f_I2C_IRQHandler: (6)
 
- 440   L11_TIM4_Config --> 253
+ 416 > f_NonHandledInterrupt: (6)
 
- 441   L12_GPIO_Config --> 260
+ 417 > f_SPI_IRQHandler: (6)
 
- 442   L12_IncrementStatus --> 288
+ 418 > f_TIM1_CAP_COM_IRQHandler: (6)
 
- 443   L13_TestCANTimebaseTick --> 335
+ 419 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
 
- 444   L13_UpdateSlaveLedStatus --> 289
+ 420 > f_TIM2_CAP_COM_IRQHandler: (6)
 
- 445   L14_UART3_RIE --> 368
+ 421 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
 
- 446   L15_TestLINTimebaseTick --> 370
+ 422 > f_TIM3_CAP_COM_IRQHandler: (6)
 
- 447   L31_Delay --> 265
+ 423 > f_TIM3_UPD_OVF_BRK_IRQHandler: (6)
 
- 448   L32_DecrementStatus --> 295
+ 424 > f_TIM4_UPD_OVF_IRQHandler: (12)
+ 425      + _SetAppliTimebaseTick: (2)
+ 426      + _SetCANTimebaseTick: (2)
+ 427      + _SetLINTimebaseTick: (2)
+ 428      + _TIM4_ClearITPendingBit: (3)
+ 429      |    + _assert_failed --> 3
+          | 
+ 430      + _TimingDelay_Decrement: (2)
+ 431      + _WdgAutoDecrement: (2)
+ 432      |    + _L99PM62drv_ClearStatusRegisters: (2)
+ 433      |    |    + _L99PM62drv_ReportError --> 98
+ 434      |    |    + _ST_SPI_Send_16 --> 99
+          |    | 
+ 435      |    + _L99PM62drv_WdgTrigger: (2)
+ 436      |    |    + _L99PM62drv_ReportError --> 98
+ 437      |    |    + _ST_SPI_Send_16 --> 99
+          |    | 
+          | 
+       
+ 438 > f_TLI_IRQHandler: (6)
 
- 449   L33_ClearAppliTimebaseTick --> 299
+ 439 > f_TRAP_IRQHandler: (6)
 
- 450   L34_StartLINReceptionTimeout --> 371
+ 440 > f_UART1_RX_IRQHandler: (6)
 
- 451   L35_ClearLINTimebaseTick --> 372
+ 441 > f_UART1_TX_IRQHandler: (6)
 
- 452   L3_CheckITStatus --> 23
+ 442 > f_UART3_RX_IRQHandler: (12)
+ 443      + _UART3_BDIE --> 385
+       
+ 444 > f_UART3_TX_IRQHandler: (6)
 
- 453   L51_L99PM62drv_WdgAutoTrigger --> 266
+ 445   L11_TIM4_Config --> 253
 
- 454   L51_UserButton1Status --> 300
+ 446   L12_GPIO_Config --> 260
 
- 455   L52_UpdateBarStatus --> 291
+ 447   L12_IncrementStatus --> 292
 
- 456   L53_TestAppliTimebaseTick --> 301
+ 448   L13_TestCANTimebaseTick --> 340
 
- 457   L54_StopLINReceptionTimeout --> 373
+ 449   L13_UpdateSlaveLedStatus --> 293
 
- 458   L55_LINError --> 374
+ 450   L14_UART3_RIE --> 373
 
- 459   L71_CLK_Config --> 267
+ 451   L15_TestLINTimebaseTick --> 375
 
- 460   L71_UserButton2Status --> 302
+ 452   L31_Delay --> 265
 
- 461   L72_ClearCANTimebaseTick --> 336
+ 453   L32_DecrementStatus --> 299
 
- 462   L72_UpdateMasterLedStatus --> 293
+ 454   L33_ClearAppliTimebaseTick --> 303
 
- 463   L73_LED_Display --> 303
+ 455   L34_StartLINReceptionTimeout --> 376
 
- 464   L73_LINChecksum --> 376
+ 456   L35_ClearLINTimebaseTick --> 377
 
- 465   L74_LINReceptionTimeoutElapsed --> 377
+ 457   L3_CheckITStatus --> 23
 
- 466   _ADC2_ClearITPendingBit --> 393
+ 458   L51_L99PM62drv_WdgAutoTrigger --> 266
 
- 467   _ADC2_ConversionConfig --> 277
+ 459   L51_UserButton1Status --> 304
 
- 468   _ADC2_DeInit --> 275
+ 460   L52_UpdateBarStatus --> 295
 
- 469   _ADC2_ExternalTriggerConfig --> 279
+ 461   L53_TestAppliTimebaseTick --> 305
 
- 470   _ADC2_GetConversionValue --> 394
+ 462   L54_StopLINReceptionTimeout --> 378
 
- 471   _ADC2_ITConfig --> 272
+ 463   L55_LINError --> 379
 
- 472   _ADC2_Init --> 276
+ 464   L71_CLK_Config --> 267
 
- 473   _ADC2_PrescalerConfig --> 281
+ 465   L71_UserButton2Status --> 306
 
- 474   _ADC2_SchmittTriggerConfig --> 283
+ 466   L72_ClearCANTimebaseTick --> 341
 
- 475   _ADC2_StartConversion --> 306
+ 467   L72_UpdateMasterLedStatus --> 297
 
- 476   _ADC_Config --> 274
+ 468   L73_LED_Display --> 307
 
- 477   _Appli --> 287
+ 469   L73_LINChecksum --> 381
 
- 478   _CAN_Config --> 317
+ 470   L74_LINReceptionTimeoutElapsed --> 382
 
- 479   _CAN_DeInit --> 318
+ 471   _ADC2_ClearITPendingBit --> 398
 
- 480   _CAN_FIFORelease --> 398
+ 472   _ADC2_ConversionConfig --> 277
 
- 481   _CAN_FilterInit --> 321
+ 473   _ADC2_DeInit --> 275
 
- 482   _CAN_GetReceivedData --> 337
+ 474   _ADC2_ExternalTriggerConfig --> 279
 
- 483   _CAN_GetReceivedId --> 339
+ 475   _ADC2_GetConversionValue --> 399
 
- 484   _CAN_GetSelectedPage --> 7
+ 476   _ADC2_ITConfig --> 272
 
- 485   _CAN_ITConfig --> 326
+ 477   _ADC2_Init --> 276
 
- 486   _CAN_Init --> 330
+ 478   _ADC2_PrescalerConfig --> 281
 
- 487   _CAN_OperatingModeRequest --> 319
+ 479   _ADC2_SchmittTriggerConfig --> 283
 
- 488   _CAN_ReadData --> 307
+ 480   _ADC2_StartConversion --> 310
 
- 489   _CAN_Receive --> 397
+ 481   _ADCIO_Config --> 274
 
- 490   _CAN_SelectPage --> 8
+ 482   _ADC_Config --> 287
 
- 491   _CAN_Task --> 334
+ 483   _Appli --> 291
 
- 492   _CAN_Transmit --> 340
+ 484   _CAN_Config --> 322
 
- 493   _CAN_WriteData --> 290
+ 485   _CAN_DeInit --> 323
 
- 494   _CLK_ClockSwitchConfig --> 268
+ 486   _CAN_FIFORelease --> 403
 
- 495   _CLK_GetClockFreq --> 352
+ 487   _CAN_FilterInit --> 326
 
- 496   _CLK_HSIPrescalerConfig --> 270
+ 488   _CAN_GetReceivedData --> 342
 
- 497   _EXTI_SetExtIntSensitivity --> 261
+ 489   _CAN_GetReceivedId --> 344
 
- 498   _GPIO_Init --> 263
+ 490   _CAN_GetSelectedPage --> 7
 
- 499   _GPIO_ReadInputPin --> 409
+ 491   _CAN_ITConfig --> 331
 
- 500   _GPIO_WriteHigh --> 304
+ 492   _CAN_Init --> 335
 
- 501   _GPIO_WriteLow --> 305
+ 493   _CAN_OperatingModeRequest --> 324
 
- 502   _GetADCData --> 311
+ 494   _CAN_ReadData --> 311
 
- 503   _InitScheduleTable --> 345
+ 495   _CAN_Receive --> 402
 
- 504   _L99PM62drv_ClearStatusRegisters --> 427
+ 496   _CAN_SelectPage --> 8
 
- 505   _L99PM62drv_Init --> 346
+ 497   _CAN_Task --> 339
 
- 506   _L99PM62drv_ReportError --> 98
+ 498   _CAN_Transmit --> 345
 
- 507   _L99PM62drv_SetPWMDutyCycle --> 312
+ 499   _CAN_WriteData --> 294
 
- 508   _L99PM62drv_WdgTrigger --> 430
+ 500   _CLK_ClockSwitchConfig --> 268
 
- 509   _LIN_MasterConfig --> 347
+ 501   _CLK_GetClockFreq --> 357
 
- 510   _LIN_ReadData --> 315
+ 502   _CLK_HSIPrescalerConfig --> 270
 
- 511   _LIN_SlaveConfig --> 360
+ 503   _EXTI_SetExtIntSensitivity --> 261
 
- 512   _LIN_Task --> 367
+ 504   _GPIO_Init --> 263
 
- 513   _LIN_WriteData --> 292
+ 505   _GPIO_ReadInputPin --> 414
 
- 514   _SPI_CalculateCRCCmd --> 209
+ 506   _GPIO_WriteHigh --> 308
 
- 515   _SPI_Cmd --> 211
+ 507   _GPIO_WriteLow --> 309
 
- 516   _SPI_DeInit --> 387
+ 508   _GetADCData --> 315
 
- 517   _SPI_GetFlagStatus --> 100
+ 509   _GetADCIOData --> 316
 
- 518   _SPI_Init --> 388
+ 510   _InitScheduleTable --> 350
 
- 519   _SPI_ReceiveData --> 102
+ 511   _L99PM62drv_ClearStatusRegisters --> 432
 
- 520   _SPI_SendData --> 103
+ 512   _L99PM62drv_Init --> 351
 
- 521   _ST_SPI_Send_16 --> 99
+ 513   _L99PM62drv_ReportError --> 98
 
- 522   _SetAppliTimebaseTick --> 420
+ 514   _L99PM62drv_SetPWMDutyCycle --> 317
 
- 523   _SetCANTimebaseTick --> 421
+ 515   _L99PM62drv_WdgTrigger --> 435
 
- 524   _SetLINTimebaseTick --> 422
+ 516   _LIN_MasterConfig --> 352
 
- 525   _TIM4_ClearFlag --> 254
+ 517   _LIN_ReadData --> 320
 
- 526   _TIM4_ClearITPendingBit --> 423
+ 518   _LIN_SlaveConfig --> 365
 
- 527   _TIM4_Cmd --> 390
+ 519   _LIN_Task --> 372
 
- 528   _TIM4_ITConfig --> 256
+ 520   _LIN_WriteData --> 296
 
- 529   _TIM4_TimeBaseInit --> 258
+ 521   _SPI_CalculateCRCCmd --> 209
 
- 530   _TimingDelay_Decrement --> 425
+ 522   _SPI_Cmd --> 211
 
- 531   _UART3_BDIE --> 380
+ 523   _SPI_DeInit --> 392
 
- 532   _UART3_DeInit --> 348
+ 524   _SPI_GetFlagStatus --> 100
 
- 533   _UART3_ITConfig --> 349
+ 525   _SPI_Init --> 393
 
- 534   _UART3_Init --> 351
+ 526   _SPI_ReceiveData --> 102
 
- 535   _UART3_LINBreakDetectionConfig --> 354
+ 527   _SPI_SendData --> 103
 
- 536   _UART3_LINCmd --> 356
+ 528   _ST_SPI_Send_16 --> 99
 
- 537   _UART3_LINConfig --> 358
+ 529   _SetAppliTimebaseTick --> 425
 
- 538   _UART3_ReceiverWakeUpCmd --> 382
+ 530   _SetCANTimebaseTick --> 426
 
- 539   _UART3_SendBreak --> 384
+ 531   _SetLINTimebaseTick --> 427
 
- 540   _UART3_SendData8 --> 385
+ 532   _TIM4_ClearFlag --> 254
 
- 541   _WdgAutoDecrement --> 426
+ 533   _TIM4_ClearITPendingBit --> 428
 
- 542   _assert_failed --> 3
+ 534   _TIM4_Cmd --> 395
+
+ 535   _TIM4_ITConfig --> 256
+
+ 536   _TIM4_TimeBaseInit --> 258
+
+ 537   _TimingDelay_Decrement --> 430
+
+ 538   _UART3_BDIE --> 385
+
+ 539   _UART3_DeInit --> 353
+
+ 540   _UART3_ITConfig --> 354
+
+ 541   _UART3_Init --> 356
+
+ 542   _UART3_LINBreakDetectionConfig --> 359
+
+ 543   _UART3_LINCmd --> 361
+
+ 544   _UART3_LINConfig --> 363
+
+ 545   _UART3_ReceiverWakeUpCmd --> 387
+
+ 546   _UART3_SendBreak --> 389
+
+ 547   _UART3_SendData8 --> 390
+
+ 548   _WdgAutoDecrement --> 431
+
+ 549   _assert_failed --> 3
 
 
 
@@ -1377,321 +1391,324 @@ Stack size: 90
                                Symbols
                                -------
 
-_ADC2_ClearFlag                          000088cc   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_ClearITPendingBit                  000088d7   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_ClearFlag                          000088ce   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_ClearITPendingBit                  000088d9   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_ADC2_Cmd                                00008621   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_ConversionConfig                   0000879b   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_DeInit                             000084a9   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_Cmd                                00008623   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_ConversionConfig                   0000879d   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_DeInit                             000084ab   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\adcio.o
                                                             ..\..\..\stvd\cosmic\adc.o
-_ADC2_ExternalTriggerConfig              00008843   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_GetConversionValue                 00008894   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_ExternalTriggerConfig              00008845   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_GetConversionValue                 00008896   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_ADC2_GetFlagStatus                      000088c6   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_GetITStatus                        000088d1   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_ITConfig                           00008646   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_GetFlagStatus                      000088c8   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_GetITStatus                        000088d3   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_ITConfig                           00008648   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_ADC2_Init                               000084be   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_Init                               000084c0   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\adcio.o
                                                             ..\..\..\stvd\cosmic\adc.o
-_ADC2_PrescalerConfig                    0000866b   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_SchmittTriggerConfig               000086ab   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
-_ADC2_StartConversion                    0000888f   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_PrescalerConfig                    0000866d   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_SchmittTriggerConfig               000086ad   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
+_ADC2_StartConversion                    00008891   defined in ..\..\..\stvd\cosmic\stm8s_adc2.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_ADCIO_Config                            ********   *** removed from ..\..\..\stvd\cosmic\adcio.o ***
-_ADC_Config                              0000afeb   defined in ..\..\..\stvd\cosmic\adc.o section .text
+_ADCIO_Config                            0000a87e   defined in ..\..\..\stvd\cosmic\adcio.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_Appli                                   0000a87c   defined in ..\..\..\stvd\cosmic\appli.o section .text
+_ADC_Config                              0000b025   defined in ..\..\..\stvd\cosmic\adc.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_BreakReceived                           0000016e   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_Appli                                   0000a8a3   defined in ..\..\..\stvd\cosmic\appli.o section .text
+                                                    used in ..\..\..\stvd\cosmic\main.o
+_BreakReceived                           00000170   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_CANMaster                               0000012d   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
+_CANMaster                               0000012f   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\main.o
-_CAN_CancelTransmit                      00009080   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_ClearFlag                           00009323   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_ClearITPendingBit                   000095a6   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_Config                              0000b012   defined in ..\..\..\stvd\cosmic\can.o section .text
+_CAN_CancelTransmit                      00009082   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_ClearFlag                           00009325   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_ClearITPendingBit                   000095a8   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Config                              0000b04c   defined in ..\..\..\stvd\cosmic\can.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_CAN_DeInit                              000088dc   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_DeInit                              000088de   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_FIFORelease                         000090b1   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_FilterInit                          00008a5d   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_FIFORelease                         000090b3   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_FilterInit                          00008a5f   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_GetFlagStatus                       0000939c   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetITStatus                         00009466   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetLastErrorCode                    00009309   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetMessageTimeStamp                 00009210   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetReceivedDLC                      000091eb   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetReceivedData                     000091ef   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetFlagStatus                       0000939e   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetITStatus                         00009468   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetLastErrorCode                    0000930b   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetMessageTimeStamp                 00009212   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedDLC                      000091ed   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedData                     000091f1   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_GetReceivedFMI                      0000920c   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetReceivedIDE                      000091e3   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetReceivedId                       000091dd   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedFMI                      0000920e   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedIDE                      000091e5   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedId                       000091df   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_GetReceivedRTR                      000091e7   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_GetSelectedPage                     0000964e   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_ITConfig                            00008d8f   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetReceivedRTR                      000091e9   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_GetSelectedPage                     00009650   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_ITConfig                            00008d91   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_Init                                0000894e   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Init                                00008950   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_MessagePending                      000090b6   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_OperatingModeRequest                0000926d   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_ReadData                            0000b214   defined in ..\..\..\stvd\cosmic\can.o section .text
+_CAN_MessagePending                      000090b8   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_OperatingModeRequest                0000926f   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_ReadData                            0000b24e   defined in ..\..\..\stvd\cosmic\can.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_CAN_Receive                             000090bf   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Receive                             000090c1   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_CAN_ST7CompatibilityCmd                 00008e0f   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_SelectPage                          00009652   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_Sleep                               00009239   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_TTComModeCmd                        00008e33   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_Task                                0000b04d   defined in ..\..\..\stvd\cosmic\can.o section .text
+_CAN_ST7CompatibilityCmd                 00008e11   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_SelectPage                          00009654   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Sleep                               0000923b   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_TTComModeCmd                        00008e35   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Task                                0000b087   defined in ..\..\..\stvd\cosmic\can.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_CAN_Transmit                            00008ea3   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_Transmit                            00008ea5   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
                                                     used in ..\..\..\stvd\cosmic\can.o
-_CAN_TransmitStatus                      00009002   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_WakeUp                              00009258   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
-_CAN_WriteData                           0000b226   defined in ..\..\..\stvd\cosmic\can.o section .text
+_CAN_TransmitStatus                      00009004   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_WakeUp                              0000925a   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .text
+_CAN_WriteData                           0000b260   defined in ..\..\..\stvd\cosmic\can.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
 _CLKPrescTable                           00008145   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .const
-_CLK_AdjustHSICalibrationValue           00009b0c   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_CCOCmd                              0000972c   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_CCOConfig                           00009962   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_ClearITPendingBit                   00009c04   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_ClockSecuritySystemEnable           00009aa2   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_ClockSwitchCmd                      00009751   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_ClockSwitchConfig                   0000984e   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_AdjustHSICalibrationValue           00009b0e   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_CCOCmd                              0000972e   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_CCOConfig                           00009964   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_ClearITPendingBit                   00009c06   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_ClockSecuritySystemEnable           00009aa4   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_ClockSwitchCmd                      00009753   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_ClockSwitchConfig                   00009850   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_CLK_DeInit                              00009662   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_FastHaltWakeUpCmd                   00009698   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_GetClockFreq                        00009aab   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_DeInit                              00009664   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_FastHaltWakeUpCmd                   0000969a   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_GetClockFreq                        00009aad   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_uart3.o
-_CLK_GetFlagStatus                       00009b4b   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_GetITStatus                         00009bcb   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_GetSYSCLKSource                     00009aa7   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_HSECmd                              000096bd   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_HSICmd                              000096e2   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_HSIPrescalerConfig                  00009932   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_GetFlagStatus                       00009b4d   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_GetITStatus                         00009bcd   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_GetSYSCLKSource                     00009aa9   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_HSECmd                              000096bf   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_HSICmd                              000096e4   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_HSIPrescalerConfig                  00009934   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_CLK_ITConfig                            000099ba   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_LSICmd                              00009707   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_PeripheralClockConfig               0000979b   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_SWIMConfig                          00009a7d   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_SYSCLKConfig                        00009a19   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_SYSCLKEmergencyClear                00009b46   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_CLK_SlowActiveHaltWakeUpCmd             00009776   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
-_Conversion_Value                        00000117   defined in ..\..\..\stvd\cosmic\adc.o section .data, initialized
+_CLK_ITConfig                            000099bc   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_LSICmd                              00009709   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_PeripheralClockConfig               0000979d   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_SWIMConfig                          00009a7f   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_SYSCLKConfig                        00009a1b   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_SYSCLKEmergencyClear                00009b48   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_CLK_SlowActiveHaltWakeUpCmd             00009778   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .text
+_Conversion_Value                        00000119   defined in ..\..\..\stvd\cosmic\adc.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_Conversion_Value_IO                     ********   *** removed from ..\..\..\stvd\cosmic\adcio.o ***
-_DataReceived                            0000016c   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_Conversion_Value_IO                     00000110   defined in ..\..\..\stvd\cosmic\adcio.o section .data, initialized
+_DataReceived                            0000016e   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_EXTI_DeInit                             0000836a   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
-_EXTI_GetExtIntSensitivity               00008442   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
-_EXTI_GetTLISensitivity                  000084a0   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
-_EXTI_SetExtIntSensitivity               00008373   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
+_EXTI_DeInit                             0000836c   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
+_EXTI_GetExtIntSensitivity               00008444   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
+_EXTI_GetTLISensitivity                  000084a2   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
+_EXTI_SetExtIntSensitivity               00008375   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_EXTI_SetTLISensitivity                  0000841e   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
-_ErrorState                              000001a6   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .bss
+_EXTI_SetTLISensitivity                  00008420   defined in ..\..\..\stvd\cosmic\stm8s_exti.o section .text
+_ErrorState                              000001a8   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .bss
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\can.o
                                                             ..\..\..\stvd\cosmic\lin.o
-_FrameReceived                           0000012b   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
+_FrameReceived                           0000012d   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_GPIO_DeInit                             00009c2d   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GPIO_ExternalPullUpConfig               00009d02   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GPIO_Init                               00009c35   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-                                                    used in ..\..\..\stvd\cosmic\adc.o
+_GPIO_DeInit                             00009c2f   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_ExternalPullUpConfig               00009d04   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_Init                               00009c37   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+                                                    used in ..\..\..\stvd\cosmic\adcio.o
+                                                            ..\..\..\stvd\cosmic\adc.o
                                                             ..\..\..\stvd\cosmic\main.o
-_GPIO_ReadInputData                      00009cf8   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GPIO_ReadInputPin                       00009cfb   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_ReadInputData                      00009cfa   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_ReadInputPin                       00009cfd   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_GPIO_ReadOutputData                     00009cf6   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GPIO_Write                              00009cda   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GPIO_WriteHigh                          00009ce0   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_ReadOutputData                     00009cf8   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_Write                              00009cdc   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_WriteHigh                          00009ce2   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\lin.o
-_GPIO_WriteLow                           00009ce7   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GPIO_WriteLow                           00009ce9   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\can.o
                                                             ..\..\..\stvd\cosmic\lin.o
-_GPIO_WriteReverse                       00009cef   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
-_GetADCData                              0000b00e   defined in ..\..\..\stvd\cosmic\adc.o section .text
+_GPIO_WriteReverse                       00009cf1   defined in ..\..\..\stvd\cosmic\stm8s_gpio.o section .text
+_GetADCData                              0000b048   defined in ..\..\..\stvd\cosmic\adc.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_GetADCIOData                            ********   *** removed from ..\..\..\stvd\cosmic\adcio.o ***
+_GetADCIOData                            0000a89f   defined in ..\..\..\stvd\cosmic\adcio.o section .text
+                                                    used in ..\..\..\stvd\cosmic\appli.o
 _HSIDivFactor                            00008141   defined in ..\..\..\stvd\cosmic\stm8s_clk.o section .const
-_HeaderReceived                          0000016d   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_HeaderReceived                          0000016f   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_IdentifierParityError                   0000016f   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_IdentifierParityError                   00000171   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_InitScheduleTable                       0000c208   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_InitScheduleTable                       0000c242   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_L99PM62drv_ClearStatusRegisters         0000c087   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_ClearStatusRegisters         0000c0c1   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_L99PM62drv_EnableBusWakeUp              0000bbd9   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_EnableWakeupSource           0000b798   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_GetControl                   0000bed2   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_GetGlobalStatusRegister      0000bc87   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_Init                         0000b24e   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_EnableBusWakeUp              0000bc13   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_EnableWakeupSource           0000b7d2   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_GetControl                   0000bf0c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_GetGlobalStatusRegister      0000bcc1   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_Init                         0000b288   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_L99PM62drv_LinSetup                     0000b8c8   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_ReadClearStatus              0000bd27   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_ReadControl                  0000bdb3   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_ReadStatus                   0000bc9b   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_ReportError                  0000b24c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetCanLoopBackMode           0000c18c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetCanPatternWakeUp          0000c1ad   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetCanStandbyMode            0000bc3f   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetCyclicWakeUp              0000bb69   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetInputFilterMode           0000b82f   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOut1Mode                  0000b38e   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOut2Mode                  0000b3d4   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOut3Mode                  0000b41b   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOut4Mode                  0000b463   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOutHSAutorecovery         0000b532   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetOutHSMode                 0000b4b4   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetPWMDutyCycle              0000ba2c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_LinSetup                     0000b902   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_ReadClearStatus              0000bd61   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_ReadControl                  0000bded   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_ReadStatus                   0000bcd5   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_ReportError                  0000b286   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetCanLoopBackMode           0000c1c6   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetCanPatternWakeUp          0000c1e7   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetCanStandbyMode            0000bc79   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetCyclicWakeUp              0000bba3   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetInputFilterMode           0000b869   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOut1Mode                  0000b3c8   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOut2Mode                  0000b40e   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOut3Mode                  0000b455   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOut4Mode                  0000b49d   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOutHSAutorecovery         0000b56c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetOutHSMode                 0000b4ee   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetPWMDutyCycle              0000ba66   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_L99PM62drv_SetPWMFrequ                  0000b9ed   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetRelayOutput               0000b571   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetRelayShutdownMode         0000b96f   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetResetThresholdLevel       0000b7d3   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetStandbyMode               0000b329   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetTimer1                    0000b63f   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetTimer2                    0000b6b0   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetVReg1CurrentMonitorMode   0000b9ae   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetVoltageReg2Mode           0000b5ee   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetVsLockoutMode             0000b930   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetWDTiming                  0000bae1   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_SetWUInputMode               0000b719   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_L99PM62drv_WdgTrigger                   0000b302   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetPWMFrequ                  0000ba27   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetRelayOutput               0000b5ab   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetRelayShutdownMode         0000b9a9   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetResetThresholdLevel       0000b80d   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetStandbyMode               0000b363   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetTimer1                    0000b679   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetTimer2                    0000b6ea   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetVReg1CurrentMonitorMode   0000b9e8   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetVoltageReg2Mode           0000b628   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetVsLockoutMode             0000b96a   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetWDTiming                  0000bb1b   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_SetWUInputMode               0000b753   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_L99PM62drv_WdgTrigger                   0000b33c   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_L99PM62drv_WriteControl                 0000bf61   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_LINReceptionTimeout                     00000171   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_L99PM62drv_WriteControl                 0000bf9b   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_LINReceptionTimeout                     00000173   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_LINReceptionTimeoutValue                00000170   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_LINReceptionTimeoutValue                00000172   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_LINScheduleTable                        000001dd   defined in ..\..\..\stvd\cosmic\lin.o section .bss
-_LINSlave                                00000172   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_LINScheduleTable                        000001df   defined in ..\..\..\stvd\cosmic\lin.o section .bss
+_LINSlave                                00000174   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\main.o
                                                             ..\..\..\stvd\cosmic\stm8s_it.o
-_LIN_FSM                                 00000211   defined in ..\..\..\stvd\cosmic\lin.o section .bss
-_LIN_MasterConfig                        0000c1ce   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_LIN_FSM                                 00000213   defined in ..\..\..\stvd\cosmic\lin.o section .bss
+_LIN_MasterConfig                        0000c208   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_LIN_ReadData                            0000c7cf   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_LIN_ReadData                            0000c809   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_LIN_SlaveConfig                         0000c279   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_LIN_SlaveConfig                         0000c2b3   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_LIN_Task                                0000c2ac   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_LIN_Task                                0000c2e6   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_LIN_WriteData                           0000c7f8   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_LIN_WriteData                           0000c832   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-_ReceptionEnable                         00000182   defined in ..\..\..\stvd\cosmic\main.o section .data, initialized
+_ReceptionEnable                         00000184   defined in ..\..\..\stvd\cosmic\main.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_ReceptionError                          00000175   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_ReceptionError                          00000177   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_SPI_BiDirectionalLineConfig             00009f6b   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_CalculateCRCCmd                     00009f14   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_ClearFlag                           00009fca   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_ClearITPendingBit                   0000a04c   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_Cmd                                 00009e5e   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_BiDirectionalLineConfig             00009f6d   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_CalculateCRCCmd                     00009f16   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_ClearFlag                           00009fcc   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_ClearITPendingBit                   0000a04e   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_Cmd                                 00009e60   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_SPI_DeInit                              00009d41   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_DeInit                              00009d43   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_SPI_GetCRC                              00009f39   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_GetCRCPolynomial                    00009f67   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_GetFlagStatus                       00009f90   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_GetCRC                              00009f3b   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_GetCRCPolynomial                    00009f69   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_GetFlagStatus                       00009f92   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\l99pm62drv.o
-_SPI_GetITStatus                         00009fe9   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_ITConfig                            00009e83   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_Init                                00009d56   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_GetITStatus                         00009feb   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_ITConfig                            00009e85   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_Init                                00009d58   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_SPI_NSSInternalSoftwareCmd              00009eea   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_ReceiveData                         00009ee6   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_NSSInternalSoftwareCmd              00009eec   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_ReceiveData                         00009ee8   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\l99pm62drv.o
-_SPI_ResetCRC                            00009f5e   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_SPI_SendData                            00009ee2   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_ResetCRC                            00009f60   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_SPI_SendData                            00009ee4   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
                                                     used in ..\..\..\stvd\cosmic\l99pm62drv.o
-_SPI_TransmitCRC                         00009f0f   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
-_ST_SPI_Send_16                          0000c0a9   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
-_SetAppliTimebaseTick                    0000aea0   defined in ..\..\..\stvd\cosmic\appli.o section .text
+_SPI_TransmitCRC                         00009f11   defined in ..\..\..\stvd\cosmic\stm8s_spi.o section .text
+_ST_SPI_Send_16                          0000c0e3   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .text
+_SetAppliTimebaseTick                    0000aeda   defined in ..\..\..\stvd\cosmic\appli.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_SetCANTimebaseTick                      0000b23a   defined in ..\..\..\stvd\cosmic\can.o section .text
+_SetCANTimebaseTick                      0000b274   defined in ..\..\..\stvd\cosmic\can.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_SetLINTimebaseTick                      0000c862   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_SetLINTimebaseTick                      0000c89c   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_StartupCompleted                        00000116   defined in ..\..\..\stvd\cosmic\appli.o section .data, initialized
+_StartupCompleted                        00000118   defined in ..\..\..\stvd\cosmic\appli.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\l99pm62drv.o
                                                             ..\..\..\stvd\cosmic\main.o
-_StartupDisplay                          00000115   defined in ..\..\..\stvd\cosmic\appli.o section .data, initialized
-_TIM4_ARRPreloadConfig                   0000a1f8   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_ClearFlag                          0000a267   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_StartupDisplay                          00000117   defined in ..\..\..\stvd\cosmic\appli.o section .data, initialized
+_TIM4_ARRPreloadConfig                   0000a1fa   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_ClearFlag                          0000a269   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_TIM4_ClearITPendingBit                  0000a2b2   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_ClearITPendingBit                  0000a2b4   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_TIM4_Cmd                                0000a0d4   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_Cmd                                0000a0d6   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_TIM4_DeInit                             0000a07a   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_GenerateEvent                      0000a21d   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_GetCounter                         0000a23e   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_GetFlagStatus                      0000a246   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_GetITStatus                        0000a281   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_GetPrescaler                       0000a242   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_ITConfig                           0000a0f9   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_DeInit                             0000a07c   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_GenerateEvent                      0000a21f   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_GetCounter                         0000a240   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_GetFlagStatus                      0000a248   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_GetITStatus                        0000a283   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_GetPrescaler                       0000a244   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_ITConfig                           0000a0fb   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_TIM4_PrescalerConfig                    0000a1a7   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_SelectOnePulseMode                 0000a181   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_SetAutoreload                      0000a23a   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_SetCounter                         0000a236   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_TimeBaseInit                       0000a093   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_PrescalerConfig                    0000a1a9   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_SelectOnePulseMode                 0000a183   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_SetAutoreload                      0000a23c   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_SetCounter                         0000a238   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_TimeBaseInit                       0000a095   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-_TIM4_UpdateDisableConfig                0000a137   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TIM4_UpdateRequestConfig                0000a15c   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
-_TimingDelay_Decrement                   0000ca17   defined in ..\..\..\stvd\cosmic\main.o section .text
+_TIM4_UpdateDisableConfig                0000a139   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TIM4_UpdateRequestConfig                0000a15e   defined in ..\..\..\stvd\cosmic\stm8s_tim4.o section .text
+_TimingDelay_Decrement                   0000ca49   defined in ..\..\..\stvd\cosmic\main.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_TransmissionEnable                      0000012c   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
+_TransmissionEnable                      0000012e   defined in ..\..\..\stvd\cosmic\can.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\appli.o
                                                             ..\..\..\stvd\cosmic\main.o
-_UART3Data                               00000174   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_UART3Data                               00000176   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_UART3_BDIE                              0000c7bc   defined in ..\..\..\stvd\cosmic\lin.o section .text
+_UART3_BDIE                              0000c7f6   defined in ..\..\..\stvd\cosmic\lin.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_UART3_ClearFlag                         0000a742   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_ClearITPendingBit                 0000a840   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_Cmd                               0000a47c   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_DeInit                            0000a2cc   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ClearFlag                         0000a744   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ClearITPendingBit                 0000a842   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_Cmd                               0000a47e   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_DeInit                            0000a2ce   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_GetFlagStatus                     0000a6b6   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_GetITStatus                       0000a78e   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_ITConfig                          0000a489   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_GetFlagStatus                     0000a6b8   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_GetITStatus                       0000a790   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ITConfig                          0000a48b   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_Init                              0000a2ef   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_Init                              0000a2f1   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_LINBreakDetectionConfig           0000a54f   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_LINBreakDetectionConfig           0000a551   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_LINCmd                            0000a5e3   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_LINCmd                            0000a5e5   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_LINConfig                         0000a574   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_LINConfig                         0000a576   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_ReceiveData8                      0000a651   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_ReceiveData9                      0000a655   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_ReceiverWakeUpCmd                 0000a62c   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ReceiveData8                      0000a653   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ReceiveData9                      0000a657   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_ReceiverWakeUpCmd                 0000a62e   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_SR_Buf                            00000173   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
+_UART3_SR_Buf                            00000175   defined in ..\..\..\stvd\cosmic\lin.o section .data, initialized
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_UART3_SendBreak                         0000a68c   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_SendBreak                         0000a68e   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_SendData8                         0000a671   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_SendData8                         0000a673   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
                                                     used in ..\..\..\stvd\cosmic\lin.o
-_UART3_SendData9                         0000a675   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_SetAddress                        0000a691   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UART3_WakeUpConfig                      0000a608   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
-_UserButton1                             00000185   defined in ..\..\..\stvd\cosmic\appli.o section .bss
+_UART3_SendData9                         0000a677   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_SetAddress                        0000a693   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UART3_WakeUpConfig                      0000a60a   defined in ..\..\..\stvd\cosmic\stm8s_uart3.o section .text
+_UserButton1                             00000187   defined in ..\..\..\stvd\cosmic\appli.o section .bss
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_UserButton2                             00000184   defined in ..\..\..\stvd\cosmic\appli.o section .bss
+_UserButton2                             00000186   defined in ..\..\..\stvd\cosmic\appli.o section .bss
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
-_WdgAutoDecrement                        0000c9ef   defined in ..\..\..\stvd\cosmic\main.o section .text
+_WdgAutoDecrement                        0000ca21   defined in ..\..\..\stvd\cosmic\main.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_it.o
 __DLC                                    00000106   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .data, initialized
 __Data                                   00000107   defined in ..\..\..\stvd\cosmic\stm8s_can.o section .data, initialized
@@ -1705,16 +1722,16 @@ __endzp                                  0000000a   defined in command file sect
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
 __idesc__                                0000828e   defined in linker section .init
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
-__memory                                 00000212   defined in command file section .bss
+__memory                                 00000214   defined in command file section .bss
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
 __stack                                  00000fff   defined in command file
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
-__startmem                               00000212   defined in command file section .bss
+__startmem                               00000214   defined in command file section .bss
                                                     *** not used ***
-__stext                                  0000831a   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+__stext                                  0000831c   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
 __vectab                                 00008000   defined in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o section .const
-_assert_failed                           0000ca38   defined in ..\..\..\stvd\cosmic\main.o section .text
+_assert_failed                           0000ca6a   defined in ..\..\..\stvd\cosmic\main.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_exti.o
                                                             ..\..\..\stvd\cosmic\stm8s_adc2.o
                                                             ..\..\..\stvd\cosmic\stm8s_can.o
@@ -1723,37 +1740,37 @@ _assert_failed                           0000ca38   defined in ..\..\..\stvd\cos
                                                             ..\..\..\stvd\cosmic\stm8s_spi.o
                                                             ..\..\..\stvd\cosmic\stm8s_tim4.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-_count                                   00000130   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .data, initialized
-_exit                                    00008368   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
-_main                                    0000c87e   defined in ..\..\..\stvd\cosmic\main.o section .text
+_count                                   00000132   defined in ..\..\..\stvd\cosmic\l99pm62drv.o section .data, initialized
+_exit                                    0000836a   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                                    0000c8b8   defined in ..\..\..\stvd\cosmic\main.o section .text
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
-c_divsl                                  0000cd7b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+c_divsl                                  0000cdad   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
                                                     *** not used ***
-c_divul                                  0000cd92   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+c_divul                                  0000cdc4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
                                                     used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o
-c_fdiv                                   0000cbbe   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
+c_fdiv                                   0000cbf0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-c_ftoi                                   0000cc42   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+c_ftoi                                   0000cc74   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ftol.o section .text
                                                     *** not used ***
-c_ftol                                   0000cc48   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+c_ftol                                   0000cc7a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ftol.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-c_itof                                   0000cca4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itof.o section .text
+c_itof                                   0000ccd6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)itof.o section .text
                                                     used in ..\..\..\stvd\cosmic\appli.o
-c_lcmp                                   0000ccd2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+c_lcmp                                   0000cd04   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_lgneg                                  0000ce66   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+c_lgneg                                  0000ce98   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
                                                     used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
-c_lgsbc                                  0000ccf2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsbc.o section .text
+c_lgsbc                                  0000cd24   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsbc.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-c_lgursh                                 0000cd08   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgursh.o section .text
+c_lgursh                                 0000cd3a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgursh.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
-c_llsh                                   0000cd16   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o section .text
+c_llsh                                   0000cd48   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_lneg                                   0000ce79   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+c_lneg                                   0000ceab   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
                                                     used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
-c_lor                                    0000cd25   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o section .text
+c_lor                                    0000cd57   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
 c_lreg                                   00000000   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
@@ -1777,33 +1794,33 @@ c_lreg                                   00000000   defined in (C:\Program Files
                                                             (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o
                                                             (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o
                                                             (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o
-c_lsub                                   0000cd3d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o section .text
+c_lsub                                   0000cd6f   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_ltor                                   0000cd55   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+c_ltor                                   0000cd87   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
                                                             ..\..\..\stvd\cosmic\stm8s_clk.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_ludv                                   0000cd67   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+c_ludv                                   0000cd99   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_clk.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_lursh                                  0000ce8e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o section .text
+c_lursh                                  0000cec0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_lzmp                                   0000ce9d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+c_lzmp                                   0000cecf   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
                                                     used in ..\..\..\stvd\cosmic\main.o
-c_okdiv                                  0000cbce   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
+c_okdiv                                  0000cc00   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
                                                     *** not used ***
-c_rtol                                   0000ceb0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+c_rtol                                   0000cee2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
                                                             ..\..\..\stvd\cosmic\stm8s_clk.o
                                                             ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_smul                                   0000cec2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)smul.o section .text
+c_smul                                   0000cef4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)smul.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_uart3.o
-c_uitol                                  0000cf01   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o section .text
+c_uitol                                  0000cf33   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
-c_uitolx                                 0000cf0c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+c_uitolx                                 0000cf3e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
-c_umul                                   0000cf13   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o section .text
+c_umul                                   0000cf45   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8s_can.o
 c_x                                      00000004   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
@@ -1816,57 +1833,57 @@ c_y                                      00000007   defined in (C:\Program Files
                                                     used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
                                                             ..\..\..\stvd\cosmic\stm8s_it.o
                                                             (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o
-f_ADC2_IRQHandler                        0000cb47   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_ADC2_IRQHandler                        0000cb79   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_AWU_IRQHandler                         0000ca3d   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_AWU_IRQHandler                         0000ca6f   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_CAN_RX_IRQHandler                      0000ca84   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_CAN_RX_IRQHandler                      0000cab6   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_CAN_TX_IRQHandler                      0000caae   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_CAN_TX_IRQHandler                      0000cae0   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_CLK_IRQHandler                         0000ca3e   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_CLK_IRQHandler                         0000ca70   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EEPROM_EEC_IRQHandler                  0000cbbd   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EEPROM_EEC_IRQHandler                  0000cbef   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EXTI_PORTA_IRQHandler                  0000ca3f   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EXTI_PORTA_IRQHandler                  0000ca71   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EXTI_PORTB_IRQHandler                  0000ca40   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EXTI_PORTB_IRQHandler                  0000ca72   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EXTI_PORTC_IRQHandler                  0000ca41   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EXTI_PORTC_IRQHandler                  0000ca73   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EXTI_PORTD_IRQHandler                  0000ca42   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EXTI_PORTD_IRQHandler                  0000ca74   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_EXTI_PORTE_IRQHandler                  0000ca43   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_EXTI_PORTE_IRQHandler                  0000ca75   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_I2C_IRQHandler                         0000cab8   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_I2C_IRQHandler                         0000caea   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_NonHandledInterrupt                    0000ca3a   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_NonHandledInterrupt                    0000ca6c   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_SPI_IRQHandler                         0000caaf   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_SPI_IRQHandler                         0000cae1   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM1_CAP_COM_IRQHandler                0000cab1   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM1_CAP_COM_IRQHandler                0000cae3   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM1_UPD_OVF_TRG_BRK_IRQHandler        0000cab0   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler        0000cae2   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM2_CAP_COM_IRQHandler                0000cab3   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM2_CAP_COM_IRQHandler                0000cae5   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM2_UPD_OVF_BRK_IRQHandler            0000cab2   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM2_UPD_OVF_BRK_IRQHandler            0000cae4   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM3_CAP_COM_IRQHandler                0000cab5   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM3_CAP_COM_IRQHandler                0000cae7   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM3_UPD_OVF_BRK_IRQHandler            0000cab4   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM3_UPD_OVF_BRK_IRQHandler            0000cae6   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TIM4_UPD_OVF_IRQHandler                0000cb6f   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TIM4_UPD_OVF_IRQHandler                0000cba1   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TLI_IRQHandler                         0000ca3c   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TLI_IRQHandler                         0000ca6e   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_TRAP_IRQHandler                        0000ca3b   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_TRAP_IRQHandler                        0000ca6d   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_UART1_RX_IRQHandler                    0000cab7   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_UART1_RX_IRQHandler                    0000cae9   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_UART1_TX_IRQHandler                    0000cab6   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_UART1_TX_IRQHandler                    0000cae8   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_UART3_RX_IRQHandler                    0000caba   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_UART3_RX_IRQHandler                    0000caec   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o
-f_UART3_TX_IRQHandler                    0000cab9   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
+f_UART3_TX_IRQHandler                    0000caeb   defined in ..\..\..\stvd\cosmic\stm8s_it.o section .text
                                                     used in ..\..\..\stvd\cosmic\stm8_interrupt_vector.o

@@ -21,5 +21,13 @@ B0 - current only read input analog
 5 June 2016 Status
 -rvtrimmer sends to lcd
 -pb0 does not send to lcd
--out1 does not respond to trimmer. trying to debug with explicit values to pass to it. 
+-out1 does not respond to trimmer. trying to debug with explicit values to pass to it.
+
+End of 5 June 2016 Status
+-rvtrimmer works to lcd or out1
+-pb0 works if plugged to adc.c
+-pb0 does not work on acdio.c
+--check line 122 in main.c - if uncommented, breaks rvtrimmer working also. 
+--probably can only be working with one adc function at a time?
+--adcio.c isn't working at all. 
 127 = 0.89V; 0xFF = 0.5V????
